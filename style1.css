@@ -85,12 +85,13 @@ h1+p
     margin-left:;
 }
 
-.search
+.middle
 {
  border:10px;
  width: 20%; 
- border-color: aliceblue;
- background: white; 
+ height:10px;
+ border-color: rgb(9, 91, 164);
+ background: red; 
 }
 
 
