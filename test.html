@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
+<head> <!--head à revenir dessus-->
 
-    <meta charset="utf-8">
-      <link rel="stylesheet" href="style.css"/>
+      <meta charset="utf-8">
+      <script src="https://kit.fontawesome.com/e8f3f5163c.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style1.css"/>
       <title>Reservia</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <div class="container"></div>
-
-</head>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+      <div class="col-md-8">
+     
+      </div></head>
+</head> 
+<!--à completer par mquiery-->
 <body>
 <header>
-      
-      <hr class="hr"> 
+      <div class="alcontainer">
+      <hr class="hr"> <!--line-->
 
 <nav>
       
@@ -24,18 +28,22 @@
        </ul>
        </nav>      
 
-      <div id="titre_principal">
+       <!--logo-->
       <div class="logo">
       <img src="logo/Reservia.svg">
       <h1>Trouvez votre hebergement pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
 
-      <form method="post" action="traitement.php">
-      <p><img src="rsd/Layer 1.svg" class="search"><i class="fas fa-map-marker-alt></i>
-            <input class="input" type="text" name="pseudo" /></p>
-         </form></div></div>
+      <!--formulaire à retravailler-header-->
+      <div id="recontainer">
 
-         <!--filtre-->
+      <div class="left"><i class="fas fa-map-marker-alt i"></i></div>
+      <div class="search"><p class>Marseille, France</p><!--form method="post" action="traitement.php">
+      <input class="input" type="text" name="pseudo"  maxlength="7" size="" placeholder="Marseille, France"/></form--></div>
+      <div class="rechercher">Rechercher</div>
+      </div>
+
+         <!--filtre noncomplétée-->
       <div class="row">
       <div class="col-md-8">
       
@@ -43,17 +51,41 @@
 
        <div class="filtres">Filtres</div>
        <i class="fas fa-money-bill-wave"><div class="economique">Economique</div></i>
-       <div class="familial">Familial</div>
+       <div class="familial">Familial</div> 
        <div class="romantique">Romantique</div>
        <div class="animeaux_autorisés">Animeaux autorisés</div>
 
-
       </div></div></div></div>
-      
-      
-
-
-
 </header>
+<!--section-->
+
+<section>
+      <article>
+<div id="container1">
+      
+      <div class="info"><i class="fas fa-info-circle"></i></div>
+      <div class="p"><p>Plus de 500 logements sont disponible dans cette ville</p></a></div>
+</div>
+
+     <h1>Hébergement à Marseille</h1>
+<div id="imgcontainer">
+
+      <div class="AC"> la Cannebière<p>Nuit à partir de 25€</p></div>
+      <div class="HDP">Hôtel du port<p>Nuit à partir de 52€</p></div>
+      <div class="HLM">Hôtel les mouettes<p>Nuit à partir de 76€</p></div>
+      <div class="HDM">Hôtel de la mer<p>Nuit à partir de 46€</p></div>
+      <div class="ALP">Auberge Le Panier<p>Nuit à partir de 23€</p></div>
+      <div class="amina">Hôtel chez Amina<p>Nuit à partir de 96€</p></div>
+      
+      </div>
+
+
+
+
+</article>
+
+
+</section>
+</div>
 </body>
 </html>

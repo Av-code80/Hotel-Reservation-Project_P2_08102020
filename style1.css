@@ -1,0 +1,205 @@
+
+head{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.alcontainer
+{
+ margin:0 20px 0 20px;
+}
+
+
+/* line*/
+.hr
+{
+    border-color:#0065fc;
+    width: 15%;
+    margin: 10px 30px 0 700px;
+    border-width: thin;
+}
+
+/* nav */
+
+
+nav ul
+{
+  list-style-type: none;
+  display: inline-flex; 
+  margin : 40px 10px 0 700px;
+}
+
+nav li
+{
+    margin:right;
+    
+}
+
+nav a
+{
+    font-size: 1em;
+    padding-right: 2em;
+    color: #0065fc;
+    text-decoration:none;
+    font-style: normal;
+}
+
+nav a:hover
+{
+    color:grey;
+    border-bottom: 2px solid #0065fc; 
+}
+
+/* Trouvez votre hebergement*/
+h1
+{
+    font-size: 1em;
+}
+h1+p
+{
+    color:grey;
+}
+
+/* formulaire*/
+#recontainer
+{
+  display:flex;
+  
+  flex-direction:row;
+  width: 40%;
+  font-size: 10px;
+} 
+.i
+{
+    padding: 0px 0px 50px 8px;
+    margin: 10px 0 0 3px;  
+}
+.left
+{
+    border:1px;
+    width: 6%;
+    height:25px;
+    background: lightgray;
+    border-radius: 7px;
+    margin-left:;
+}
+
+.search
+{
+ border:10px;
+ width: 20%; 
+ border-color: aliceblue;
+ background: white; 
+}
+
+
+
+/*filtres*/
+#container
+{
+    display:flex; 
+    flex-direction: row;
+    justify-content:space-around;
+    font-style: normal;
+    width: 70%;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.economique
+{
+border: 2.5px solid lightgray;
+height: 1em;
+width: 15%;
+padding: 10px 60px 10px 50Px;
+border-radius: 3em;
+font-style:normal;
+
+
+}
+
+.familial
+{
+border: 2.5px solid lightgray;
+height: 1.5em;
+width: 10%;
+padding: 8px 0px 2px 35Px;
+border-radius: 3em;
+    
+    }
+
+
+.romantique
+{
+border: 2.5px solid lightgray;
+height: 1.7em;
+width: 14%;
+padding: 8px 0px 2px 55Px;
+border-radius: 3em;
+    
+    }
+
+.animeaux_autorisés
+{
+border: 2.5px solid lightgray;
+height: 1.7em;
+width: 17%;
+padding: 8px 0px 2px 50Px;
+border-radius: 3em;
+    
+    }
+
+
+/*i-information */
+
+#container1
+{
+    display:flex;
+    justify-content: space-around;
+    max-width: 63%;
+    
+}
+
+.info
+{
+margin:33px 0 0 9px ;
+}
+
+.p 
+{
+        color: grey;
+        margin:17px 5px 0 0;
+ 
+    }
+
+
+/* images-marseille */
+h1
+{
+ margin-left:14px;
+ font-style: normal;
+}
+
+
+#imgcontainer
+
+{
+  display:flex;
+  justify-content: space-around;
+  width: 70%;
+  font-size:13px;
+  
+}
+
+#imgcontainer+p
+{
+    font-size: 6px;
+    color: grey;
+}
+
+.AC 
+{
+    background: url('rsd/images/hebergements/4_small/AC.png');
+}
