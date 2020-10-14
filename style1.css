@@ -51,10 +51,35 @@ nav a:hover
     border-bottom: 2px solid #0065fc; 
 }
 
+
 /* Trouvez votre hebergement*/
+
+#logo
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 30px 20px 0 0;
+    padding: 0px 20px 15px 0;
+}
+
+.hebergement
+{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.centre
+{
+    color:gray;
+    font-size:12px;
+}
+
+
+/*--régler h1 dans toute le css*/
 h1
 {
     font-size: 1em;
+   
 }
 h1+p
 {
@@ -64,34 +89,43 @@ h1+p
 /* formulaire*/
 #recontainer
 {
-  display:flex;
-  
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   width: 40%;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight:bold;
 } 
 .i
 {
-    padding: 0px 0px 50px 8px;
-    margin: 10px 0 0 3px;  
+    padding: 1em 0em 6em 1.2em;
 }
 .left
 {
-    border:1px;
-    width: 6%;
-    height:25px;
+    border:0px;
+    width: 7.5%;
+    height:33px;
     background: lightgray;
-    border-radius: 7px;
-    margin-left:;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
 
 .middle
 {
- border:10px;
- width: 20%; 
- height:10px;
- border-color: rgb(9, 91, 164);
- background: red; 
+ border: .01px solid lightgray;
+ position: relative;
+ width: 35%; 
+ height:33px;
+}
+
+.rechercher
+{
+    border:10px;
+    width: 19%; 
+    height:33px;
+    box-sizing:;
+    background-color: #0065fc;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius:1em;
 }
 
 
@@ -101,106 +135,642 @@ h1+p
 {
     display:flex; 
     flex-direction: row;
-    justify-content:space-around;
-    font-style: normal;
-    width: 70%;
+    justify-content: space-between;
+    width: 68%;
     font-size: 12px;
     font-weight: bold;
+    margin: 2em 5em 0 0;
+    padding: 0 4em 0 0 ;
+    font-style: normal;
 
 }
+
+.filtres
+{
+    border:0;
+    height:0;
+    width: 0%;
+    padding: 10px 40px 10px 1px;
+    font-style:normal;  
+}
+
+.c1
+{   
+    height: 30px; 
+    position:relative;
+    width: 22%; 
+    background: #DEEBFF;
+    border:0;
+    border-radius: 100%; 
+    margin: 0px 15px 2.5px 0px ;
+    padding: 0px 2px 2px 0;
+    
+}
+.fas
+{ 
+    padding: 9px 0px 0px 0px;
+}
+
+.economique h1
+{ 
+    padding-left: 2.5em;
+    position:absolute;
+}
+
 
 .economique
 {
-border: 2.5px solid lightgray;
-height: 1em;
-width: 15%;
-padding: 10px 60px 10px 50Px;
-border-radius: 3em;
+border: 1px solid rgb(233, 230, 230);
+height: 2.6em;
+position: ;
+width: 20%;
+padding:auto;
+margin:auto;
+border-radius: 5em;
 font-style:normal;
-
-
 }
+
+/*familial*/
 
 .familial
 {
-border: 2.5px solid lightgray;
-height: 1.5em;
-width: 10%;
-padding: 8px 0px 2px 35Px;
-border-radius: 3em;
-    
-    }
+border: 1px solid rgb(233, 230, 230);
+height: 2.6em;
+width: 15%;
+margin:auto;
+border-radius: 5em;
+font-style:normal;
+}
 
+.c2
+{   
+ height: 30px; 
+ position:relative;
+ width: 26%; 
+ background: #DEEBFF;
+ border:0;
+ border-radius: 100%; 
+ margin: 0px 15px 2.5px 0px ;
+ padding: 0px 2px 2px .7px;
+        
+}
+.fas
+{ /* à régler fas vers le droit*/
+padding: 9px 0px 0px 20px;
+}
+
+.familial h1
+{ 
+    padding-left: 2.5em;
+    position:absolute;
+ }
+
+/* romantique*/
 
 .romantique
 {
-border: 2.5px solid lightgray;
-height: 1.7em;
-width: 14%;
-padding: 8px 0px 2px 55Px;
-border-radius: 3em;
-    
-    }
+    border: 1px solid rgb(233, 230, 230);
+    height: 2.6em;
+    width: 18.5%;
+    margin:auto;
+    border-radius: 5em;
+    font-style:normal;
+}
+
+.c3
+{   
+ height: 30px; 
+ position:relative;
+ width: 21%; 
+ background: #DEEBFF;
+ border:0;
+ border-radius: 100%; 
+ margin: 0px 15px 2.5px 0px ;
+ padding: 0px 2px 2px 0;        
+ }
+
+.fas
+{ 
+ padding: 9px 0px 0px 11px;
+ }
+     
+ .romantique h1
+ { 
+ padding-left: 2.5em;
+ position:absolute;
+ }     
+
+/* animeaux-autorisés*/
 
 .animeaux_autorisés
 {
-border: 2.5px solid lightgray;
-height: 1.7em;
-width: 17%;
-padding: 8px 0px 2px 50Px;
-border-radius: 3em;
-    
+border: 1px solid rgb(233, 230, 230);
+height: 2.6em;
+width: 22%;
+margin:auto;
+border-radius: 5em;
+font-style:normal;
     }
+
+.c4
+ {   
+ height: 30px; 
+ position:relative;
+ width: 20%; 
+ background: #DEEBFF;
+ border:0;
+ border-radius: 100%; 
+ margin: 0px 15px 2.5px 0px ;
+ padding: 0px 2px 2px 0;        
+ }
+    
+.fas
+{ 
+ padding: 9px 0px 0px 8px;
+}
+         
+.animeaux_autorisés h1
+{ 
+ padding-left: 2.5em;
+ position:absolute;
+ }    
 
 
 /*i-information */
 
-#container1
+#cinfo
 {
     display:flex;
-    justify-content: space-around;
-    max-width: 63%;
-    
+    justify-content: space-between;
+    max-width: 35%;
+    margin: 20px 20px 0 5px;
+    padding: 0px 100px 0px 17px;
 }
+
+.cercle
+ {   
+ height: 5px; 
+ position:relative;
+ width: 3%; 
+ background:white;
+ border:2px solid rgb(233, 230, 230);
+ border-radius: 100%; 
+ margin: 12px 10px 0px 0px;
+ padding: 0px 0px 10px 5px;        
+ }
 
 .info
 {
-margin:33px 0 0 9px ;
+    font-size: 9px;
+    position:absolute;
+    color: #0065fc;
+    margin:2px 0px 0px 1.5px ;
+    padding: 0px 0px 0px 0px 
 }
 
-.p 
+.pin
 {
-        color: grey;
-        margin:17px 5px 0 0;
- 
-    }
-
-
-/* images-marseille */
-h1
-{
- margin-left:14px;
- font-style: normal;
+    position: relative;
+    font-size: .9em;
+    color: gray;  
+    padding: 0 40px 10px 0;
 }
 
 
-#imgcontainer
 
+/* --illustrations-important-- */
+
+#page
 {
-  display:flex;
-  justify-content: space-around;
-  width: 70%;
-  font-size:13px;
-  
+  display: inline-table;
+  flex-direction:column;
+  columns: 3;
+  flex-wrap:wrap;
+  width: 64%;
+  height: 27em; 
+  border: gray;
+  border-radius: 1em;
+  background-color: #F2F2F2;
+  margin: 0 0 0 10px;
+  position:absolute;
 }
 
-#imgcontainer+p
+#allboxe
 {
-    font-size: 6px;
-    color: grey;
+    position:relative;
+    margin: 4px 4px 0 4px;
+    padding: 4px 4px 0 4px;
+}
+
+
+
+.hébergement
+{
+    font-weight:bold ;
 }
 
 .AC 
 {
-    background: url('rsd/images/hebergements/4_small/AC.png');
+    border: white;
+    background-color: white;
+    height: 90px;
+    width: 25%;
+    padding: 0 0 3em 0;
+    margin: 15px 10px 0px 0px ;
+    border-radius: 1em;
+    position:relative;
 }
+.img
+{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em ;
+    padding:.3em 8em 0em .2em;
+    margin: auto;
+    position: absolute;
+    width:10.2em;
+    height:4.5em;
+}
+#text
+{
+    display:inline-block;
+    justify-content:flex-end;
+    margin: auto;
+    position:;
+    width:10.1em;
+    height:4.5em;
+    padding:5.3em 8em 0em .6em;
+    margin: auto;
+}
+
+
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+   .fa-star {
+	color: gray;
+	cursor: pointer;
+    padding: 0.0625rem;
+    
+}
+/* Si elle porte en plus la classe '.checked', elle sera en blue. */
+.fa-star.checked {
+    color: #0065fc;
+}
+
+/* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
+.rating {
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;    
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: center;
+        font-size: 9px;
+        margin: 0px 0px 50px 0px;
+
+	}
+
+	/* A l'état :hover sur le parent '.rating',
+		 on force TOUTES les étoiles à passer en blue. */
+	.stars:hover .fa-star {
+		color: #0065fc;
+	}
+	/* Et si la souris survole une étoile en particulier,
+		 on sélectionne toutes les étoiles qui sont APRÈS celle-ci
+		 grâce à l'opérateur '~' et on les force en GRIS */
+	.stars .fa-star:hover ~ .fa-star {
+		color: gray;
+    }
+    
+/*--HLM--*/
+
+.HLM 
+{
+    border: white;
+    background-color: white;
+    height: 90px;
+    width: 24.6%;
+    padding: 0 0 3em 0;
+    margin: 15px 10px 0px 0px ;
+    border-radius: 1em;
+    position:relative;
+}
+.img
+{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em ;
+    padding:.3em 8em 0em .2em;
+    margin: auto;
+    position:absolute;
+    width:10.2em;
+    height:4.5em;
+}
+#text
+{
+    display:inline-block;
+    justify-content:flex-end;
+    margin: auto;
+    position:;
+    width:10.1em;
+    height:4.5em;
+    padding:5.3em 8em 0em .6em;
+    margin: auto;
+}
+
+
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+   .fa-star {
+	color: gray;
+	cursor: pointer;
+    padding: 0.0625rem;
+    
+}
+/* Si elle porte en plus la classe '.checked', elle sera en blue. */
+.fa-star.checked {
+    color: #0065fc;
+}
+
+/* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
+.rating {
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;    
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+.stars {
+		display: inline-flex;
+		justify-content: center;
+        font-size: 9px;
+        margin: 0px 0px 50px 0px;
+
+	}
+
+    
+    /*--HDP--*/
+.HDP 
+{
+    border: white;
+    background-color: white;
+    height: 90px;
+    width: 24.6%;
+    padding: 0 0 3em 0 ;
+    margin: 15px 10px 0px 0px ;
+    border-radius: 1em;
+    position:;
+}
+.img
+{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em ;
+    padding:.3em 8em 0em .2em;
+    margin: auto;
+    position:;
+    width:10.2em;
+    height:4.5em;
+}
+#text
+{
+    display:inline-block;
+    justify-content:flex-end;
+    margin: auto;
+    position:;
+    width:10.1em;
+    height:4.5em;
+    padding:5.3em 8em 0em .6em;
+    margin: auto;
+}
+
+
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+   .fa-star {
+	color: gray;
+	cursor: pointer;
+    padding: 0.0625rem;
+    
+}
+/* Si elle porte en plus la classe '.checked', elle sera en blue. */
+.fa-star.checked {
+    color: #0065fc;
+}
+
+/* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
+.rating {
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;    
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: center;
+        font-size: 9px;
+        margin: 0px 0px 50px 0px;
+
+	}
+
+	  
+    /*--HDM--*/
+.HDM
+{
+    border: white;
+    background-color: white;
+    height: 90px;
+    width: 24.6%;
+    padding: 0 0 3em 0 ;
+    margin: 15px 10px 0px 0px ;
+    border-radius: 1em;
+    position:;
+}
+.img
+{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em ;
+    padding:.3em 8em 0em .2em;
+    margin: auto;
+    position:;
+    width:10.2em;
+    height:4.5em;
+}
+#text
+{
+    display:inline-block;
+    justify-content:flex-end;
+    margin: auto;
+    position:;
+    width:10.1em;
+    height:4.5em;
+    padding:5.3em 8em 0em .6em;
+    margin: auto;
+}
+
+
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+   .fa-star {
+	color: gray;
+	cursor: pointer;
+    padding: 0.0625rem;
+    
+}
+/* Si elle porte en plus la classe '.checked', elle sera en blue. */
+.fa-star.checked {
+    color: #0065fc;
+}
+
+/* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
+.rating {
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;    
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: center;
+        font-size: 9px;
+        margin: 0px 0px 50px 0px;
+
+    }
+    
+      
+    /*--ALP--*/
+.ALP
+{
+    border: white;
+    background-color: white;
+    height: 90px;
+    width: 24.6%;
+    padding: 0 0 3em 0 ;
+    margin: 15px 10px 0px 0px ;
+    border-radius: 1em;
+    position:;
+}
+.img
+{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em ;
+    padding:.3em 8em 0em .2em;
+    margin: auto;
+    position:;
+    width:10.2em;
+    height:4.5em;
+}
+#text
+{
+    display:inline-block;
+    justify-content:flex-end;
+    margin: auto;
+    position:;
+    width: 35.2%;
+    height:4.5em;
+    padding:5.3em 8em 0em .6em;
+    margin: auto;
+}
+
+
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+   .fa-star {
+	color: gray;
+	cursor: pointer;
+    padding: 0.0625rem;
+    
+}
+/* Si elle porte en plus la classe '.checked', elle sera en blue. */
+.fa-star.checked {
+    color: #0065fc;
+}
+
+/* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
+.rating {
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;    
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: center;
+        font-size: 9px;
+        margin: 0px 0px 50px 0px;
+
+    }
+    
+      
+    /*--amina--*/
+.amina
+{
+    border: white;
+    background-color: white;
+    height: 90px;
+    width: 24.6%;
+    padding: 0 0 3em 0 ;
+    margin: 15px 10px 0px 0px ;
+    border-radius: 1em;
+    position:;
+}
+.img
+{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em ;
+    padding:.3em 8em 0em .2em;
+    margin: auto;
+    position:;
+    width:10.2em;
+    height:4.5em;
+}
+#text
+{
+    display:inline-block;
+    justify-content:flex-end;
+    margin: auto;
+    position:;
+    width:10.1em;
+    height:4.5em;
+    padding:5.3em 8em 0em .6em;
+    margin: auto;
+}
+
+
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+   .fa-star {
+	color: gray;
+	cursor: pointer;
+    padding: 0.0625rem;
+    
+}
+/* Si elle porte en plus la classe '.checked', elle sera en blue. */
+.fa-star.checked {
+    color: #0065fc;
+}
+
+/* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
+.rating {
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;    
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: center;
+        font-size: 9px;
+        margin: 0px 0px 50px 0px;
+
+	}
