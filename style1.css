@@ -345,12 +345,13 @@ font-style:normal;
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #F2F2F2;
     margin: 2em 0 .5em;
-    width: 60%;
-    border-radius: 1em;
-    height: 30em;
+    width: 100%;
+    height: 28em;
+    border-radius: .5em;
+
     
 }
 
@@ -358,17 +359,16 @@ font-style:normal;
 {
     border: gray;
     background-color: white;
-    border-radius: 1em;
-    height: 8.5em;
+    border-radius: .5em;
+    height: 7.8em;
     width: 16%;
     margin: 4em 1em 1em 1em;
-    padding: .2em 4em 0em .2em;
-    position:relative;
+    padding: .1em 3.8em 0em .2em;
   }
  
   #flex-container h1
   {
-      padding: 1em 0 0 2em;
+      padding: 0em 0 0 0em;
       color:red;
       font-size: 1em;
   }
@@ -376,19 +376,20 @@ font-style:normal;
 
 .img
 {
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
     position:absolute;
     width:10.2em;
-    height:4.4em;
+    height:4em;
 }
 #text
 {
     
     position:absolute;
+    text-align: left;
     width:10.1em;
-    height:4.5em;
-    padding:5.3em 8em 0em .6em;
+    height:4.1em;
+    padding:4.3em 8em 0em .6em;
     margin: ;
 }
 
@@ -434,4 +435,176 @@ font-style:normal;
 	.stars .fa-star:hover ~ .fa-star {
 		color: gray;
     }
+ 
     
+/*--aside--*/
+
+section
+{
+    display:flex;
+    margin: 0px;
+}
+
+
+#flex-container-as
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F2F2F2;
+  width: 70%;
+  height: 28em;
+  border-radius: .5em;
+  margin: 4.1em 0em 0em 2em;
+  padding:0px;
+  position: relative;
+}
+
+
+#flex-container-as > div
+{
+    border: gray;
+    background-color: white;
+    border-radius: .5em;
+    height: 5.2em;
+    width: 63%;
+    margin: 0em 1em 2.5em 1em;
+    padding: .2em 4em 0em .2em;
+    position:relative;
+  
+}
+
+.img2
+{
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    position:;
+    width:5em;
+    height:5em;
+    position: absolute;
+}
+#text2
+{
+    position:relative;
+    text-align: left;
+    width:10.1em;
+    height:4.5em;
+    padding:0em 0em 0em 6em;
+    margin: 0 2px 0 0;
+}
+
+.h1
+{
+    margin-left: 1em;
+    text-align-last: inherit;
+}
+.fa-chart-line
+{
+margin-left: 5.3em;
+}
+
+
+
+/*--section2-GridImages--*/
+
+.wrapper
+{
+   display:grid;
+   grid-template: repeat(4, 2.5em) / repeat(4, 14.1em);
+   grid-gap:20px;   
+}
+
+.wrapper > div
+{
+    box-shadow: 5px 5px #F2F2F2;
+    border:0;
+    background-color:#ffff;
+    border-radius: 1em;
+    
+}
+
+
+.one 
+{
+    grid-column:1/2;
+    grid-row: 1/7; 
+}
+.vp
+{
+    width: 14.6em;
+    height: 28em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+
+.two 
+{ 
+    grid-column:2/3;
+    grid-row: 1/6 ;
+    
+}
+.fp
+{    width: 14.1em;
+    height: 9.3em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+
+.three 
+{
+    grid-column:2/3;
+    grid-row: 6/7;
+}
+.if
+{
+    width: 14.6em;
+    height: 5.5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+
+.four 
+  {
+    grid-column:3/4 ;
+    grid-row: 1/7 ;
+  }
+  .ng
+  {
+    width: 14.1em;
+    height: 30em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+  }
+
+
+.five 
+{
+    grid-column:4/5 ;
+    grid-row:1/4 ;
+}
+.nd
+{
+    width: 14.2em;
+    height: 5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+
+.six 
+{
+    grid-column:4/5 ;
+    grid-row:4/7 ;
+}
+.pl
+{
+    width: 14.2em;
+    height: 14em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+.wrapper p
+
+{
+    font-size: 11px;
+}
+
