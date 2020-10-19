@@ -4,10 +4,14 @@ head{
 }
 
 
-.alcontainer
+body
 {
- margin: 0 0px 0 0em;
+ margin: 2em 0 0 2em;
 }
+
+
+
+/*--Start-Mqueries-mobile--*/
 
 @media all and (max-width: 1024px)
 {
@@ -27,19 +31,17 @@ head{
 nav ul
 {
   list-style-type: none;
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin : auto;
+ 
 }
 
 nav li
     {
-        padding-left: 4px;
+        padding-left: auto;
     }
     
     nav a
     {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
 nav a:hover
@@ -48,22 +50,18 @@ nav a:hover
     border-bottom: 0; 
 }
 
-/*--hébergement-centre*/
+/*--MQ-hébergement-centre*/
 
 #hcentre
 {
     display: flex;
     justify-items: left;
-    max-width: 30%;
-    
-
+    max-width: 30%;    
 }
 
    
 }
-
-
-
+/*--END-Mqueries-mobile--*/
 
 
 
@@ -158,13 +156,13 @@ h1+p
 /* formulaire*/
 #recontainer
 {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   width: 40%;
   font-size: 12px;
   font-weight:bold;
 } 
-.i
+.fai
 {
     padding: 1em 0em 6em 1.2em;
 }
@@ -191,31 +189,34 @@ h1+p
     border:10px;
     width: 19%; 
     height:33px;
-    box-sizing:;
     background-color: #0065fc;
     border-top-right-radius: 1em;
     border-bottom-right-radius:1em;
 }
 
-/*media-queries--*/
-@media all and (max-device-width: 480px)
+
+
+/*--Start-Media-queries--*/
+@media all and (max-width: 1024px)
 {
-  /*filtres*/
+  /*MQ-filtres*/
 #container
 {
     display: flex;
-	flex-direction: column;
-    align-items: flex-start;     
-    font-size: 14px;
+    justify-items: left;
+    flex-wrap: wrap;
+    max-width: 40%;   
+    font-size: 10px;
     font-weight: bold;
     font-style: normal;   
 }
+ 
 .filtres
 {
     border:0;
     height:0;
-    width: 0%;
-    padding: 10px 40px 10px 1px;
+    width: 30%;
+    padding: auto;
     font-style:normal;  
 }
 
@@ -226,18 +227,18 @@ h1+p
     background: #DEEBFF;
     border:0;
     border-radius: 100%; 
-    margin: 0px 15px 2.5px 0px ;
-    padding: 0px 2px 2px 0;
+    margin: auto;
+    padding:auto;
     
 }
 .fas
 { 
-    padding: 9px 0px 0px 0px;
+    padding: auto;
 }
 
 .economique h1
 { 
-    padding-left: 2.5em;
+    padding-left: auto;
 }
 
 
@@ -271,13 +272,13 @@ font-style:normal;
  background: #DEEBFF;
  border:0;
  border-radius: 100%; 
- margin: 0px 15px 2.5px 0px ;
- padding: 0px 2px 2px .7px;
+ margin:auto;
+ padding: auto;
         
 }
 .fas
 { /* à régler fas vers le droit*/
-padding: 9px 0px 0px 20px;
+padding: auto;
 }
 
 .familial h1
@@ -304,13 +305,13 @@ padding: 9px 0px 0px 20px;
  background: #DEEBFF;
  border:0;
  border-radius: 100%; 
- margin: 0px 15px 2.5px 0px ;
- padding: 0px 2px 2px 0;        
+ margin: auto ;
+ padding: auto;        
  }
 
 .fas
 { 
- padding: 9px 0px 0px 11px;
+ padding: auto;
  }
      
  .romantique h1
@@ -337,22 +338,194 @@ font-style:normal;
  background: #DEEBFF;
  border:0;
  border-radius: 100%; 
- margin: 0px 15px 2.5px 0px ;
- padding: 0px 2px 2px 0;        
+ margin: auto;
+ padding: auto;        
  }
     
 .fas
 { 
- padding: 9px 0px 0px 8px;
+ padding: auto;
 }
          
 .animeaux_autorisés h1
 { 
- padding-left: 2.5em;
+ padding-left: auto;
  }    
 
 
+/*--MQ-aside--*/
+
+#flex-container-as
+{
+   display: flex;
+   justify-items: left;
+   max-width: 40%; 
+  background-color: #F2F2F2;
+  width: auto;
+  height: 28em;
+  border-radius:.5em;
+  margin: auto;
+  padding:0px;
 }
+
+
+#flex-container-as > div
+{
+    border: gray;
+    background-color: white;
+    border-radius: .5em;
+    height: auto;
+    width: 40%;
+    margin: ;
+   
+  
+}
+
+
+ /* --MQ-illustrations-Hébergement à Marseille-- */
+
+ section
+ {
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin: 0px;
+ }
+
+
+#flex-container
+{
+    display: flex;
+    justify-items: left;
+    max-width: 40%;   
+    background-color: #F2F2F2;
+    margin:auto;
+    width: auto;
+    height: 100%;
+    border-radius: .5em;  
+    height: auto;
+}
+
+#flex-container > div 
+{
+    border: gray;
+    background-color: white;
+    border-radius: .5em;
+    height: 7.8em;
+    width: 16%;
+    margin: auto;
+    padding: auto;
+  }
+ 
+  
+/*--MQ-grid--*/
+
+.wrapper
+{
+   display:grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-auto-rows: 30px;
+   width: 40%;
+   margin:auto;
+   height: auto;
+
+}
+
+.wrapper > div
+{
+    box-shadow: 5px 5px #F2F2F2;
+    border:2px;
+    background-color:#ffff;
+    border-radius: 1em;
+    object-fit: cover;
+    
+}
+
+.one 
+{
+    grid-column:1/2;
+    grid-row: 1/9; 
+}
+.vp
+{
+    width: 13.5em;
+    height: 21em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+
+.two 
+{ 
+    grid-column:1/2;
+    grid-row: 1/5 ;
+  
+}
+.fp
+{   width: 15.5em;
+    height: 9em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+
+}
+
+.three 
+{
+    grid-column:1/2;
+    grid-row: 5/9;
+}
+.if
+{
+    width: 15.5em;
+    height: 8.5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+
+.four 
+  {
+    grid-column:1/2 ;
+    grid-row: 1/9 ;
+  }
+  .ng
+  {
+    width: 13em;
+    height: 21.1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+  }
+
+
+.five 
+{
+    grid-column:1/2 ;
+    grid-row:1/5 ;
+}
+.nd
+{
+    width: 14.3em;
+    height: 9em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+
+.six 
+{
+    grid-column:1/2 ;
+    grid-row:5/9 ;
+}
+.pl
+{
+    width: 14.3em;
+    height: 8.6em;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+}
+
+
+}
+/*--End-MQ--*/
+
+
 
 
 /*filtres*/
@@ -520,6 +693,7 @@ font-style:normal;
  }    
 
 
+
 /*section-i-information */
 
 #cinfo
@@ -563,7 +737,8 @@ font-style:normal;
 
 
 
-/* --illustrations-important-- */
+
+/* --illustrations-Hébergement à Marseille-- */
 
 
 #flex-container
@@ -575,9 +750,7 @@ font-style:normal;
     margin: 2em 0 .5em;
     width: 100%;
     height: 28em;
-    border-radius: .5em;
-
-    
+    border-radius: .5em;   
 }
 
 #flex-container > div 
@@ -607,7 +780,7 @@ font-style:normal;
     width:10.2em;
     height:4em;
 }
-#text
+#text1 
 {
     
     position:absolute;
@@ -615,7 +788,57 @@ font-style:normal;
     width:10.1em;
     height:4.1em;
     padding:4.3em 8em 0em .6em;
-    margin: ;
+    
+}
+
+#text2 
+{
+    
+    position:absolute;
+    text-align: left;
+    width:10.1em;
+    height:4.1em;
+    padding:4.3em 8em 0em .6em;
+    
+}
+#text3 
+{
+    
+    position:absolute;
+    text-align: left;
+    width:10.1em;
+    height:4.1em;
+    padding:4.3em 8em 0em .6em;
+    
+}
+#text4 
+{
+    
+    position:absolute;
+    text-align: left;
+    width:10.1em;
+    height:4.1em;
+    padding:4.3em 8em 0em .6em;    
+}
+
+#text5 
+{  
+    position:absolute;
+    text-align: left;
+    width:10.1em;
+    height:4.1em;
+    padding:4.3em 8em 0em .6em;
+}
+
+#text6 
+{
+    
+    position:absolute;
+    text-align: left;
+    width:10.1em;
+    height:4.1em;
+    padding:4.3em 8em 0em .6em;
+    
 }
 
 
@@ -708,7 +931,7 @@ section
     height:5em;
     position: absolute;
 }
-#text2
+#text22
 {
     position:relative;
     text-align: left;
@@ -718,10 +941,32 @@ section
     margin: 0 2px 0 0;
 }
 
-.h1
+#text23
+{
+    position:relative;
+    text-align: left;
+    width:10.1em;
+    height:4.5em;
+    padding:0em 0em 0em 6em;
+    margin: 0 2px 0 0;
+}
+
+#text24
+{
+    position:relative;
+    text-align: left;
+    width:10.1em;
+    height:4.5em;
+    padding:0em 0em 0em 6em;
+    margin: 0 2px 0 0;
+}
+
+
+.populaire
 {
     margin-left: 1em;
     text-align-last: inherit;
+    font-weight: bold;
 }
 .fa-chart-line
 {
@@ -731,6 +976,7 @@ margin-left: 5.3em;
 
 
 /*--section2-GridImages--*/
+
  .h1{
     margin:2em 0 0 1em;
 }
