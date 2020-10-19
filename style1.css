@@ -6,7 +6,7 @@ head{
 
 body
 {
- margin: 2em 0 0 2em;
+ margin: 0em 0 .5em .5em;
 }
 
 
@@ -80,7 +80,7 @@ nav a:hover
 {
     display: flex;
     justify-content: space-between;
-    margin: 4em 2em 0 0em;
+   
 }
 .logo
 {
