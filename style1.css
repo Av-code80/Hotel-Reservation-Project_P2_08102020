@@ -99,7 +99,7 @@ h1+p
 }
 
 
-/* formulaire*/
+/* --formulaire--*/
 
 #recontainer
 {
@@ -153,7 +153,8 @@ width:150px;
 
 
 
-/*filtres*/
+
+/*--filtres--*/
 
 #container
 {
@@ -166,7 +167,6 @@ width:150px;
     margin: 2em 5em 0 0;
     padding: 0 4em 0 0 ;
     font-style: normal;
-
 }
 
 .filtres
@@ -783,10 +783,11 @@ article h2
 /*--Start-Mqueries-mobile--*/
 
 @media all and (max-width: 1024px)
+
 {
-   .alcontainer
+   body
     {
-     margin:auto;
+     margin:0 0 0 1em;
     }
 
     .selector-for-some-widget {
@@ -799,7 +800,7 @@ article h2
 
 .logo
 {
-display: flex;   
+margin-bottom: 2em;
  
 }
 
@@ -808,29 +809,26 @@ display: flex;
 
 .nav
 {
-    display: flex;
-    flex-wrap: wrap;
+    text-align: left;
 }
 
 
 nav ul
 {
   list-style-type: none;
-  display: flex;
-    flex-wrap: wrap;
-     
+  margin: 7em 18em 0 0;
+    
 }
 
 nav li
     {
-        
-        padding-left: auto;
-        
+             
     }
     
     nav a
     {
         font-size: 1em;
+        
         
     }
 
@@ -845,8 +843,9 @@ nav a:hover
 .hr
 {
     border-color:#0065fc;
+    float: unset;
     width: 30%;
-    margin: 10px 0px 0 0px;
+    margin: 1em 10em 0 0;
     border-width: thin;
 }
 
@@ -858,20 +857,72 @@ nav a:hover
 {
     display: flex;
     justify-items: left;
-    max-width: 30%;    
+    max-width: 30%; 
+    margin: 3em 0 0 0;  
+    font-weight: bold; 
 }
 
 
-/*--Start-Media-queries--*/
+
+/* --MQ-formulaire--*/
+
+#recontainer
+{
+  display: inline-flex;
+  flex-direction: row;
+  width: 40%;
+  font-size: 12px;
+  font-weight: bold;
+} 
+.fai
+{
+    margin: 0em 0em 6em 10em;
+    padding: 0 0 0 0em;
+    
+}
+.left
+{
+    border:0px;
+    width: 5%;
+    height:33px;
+    background: lightgray;
+    padding: 0 0 0 .7em ;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.middle
+{
+    display:block;
+width:150px;
+ border: .01px solid lightgray;
+ position: relative;
+ width: 35%; 
+ height:32px;
+}
+
+.button
+{
+    border:10px;
+    width: 120%; 
+    height:33px;
+    link: i class="fas fa-search";
+    background-color: #0065fc;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius:1em;
+}
+
+
 
 
   /*-MQ-filtres*/
 #container
 {
     display: flex;
+    flex-direction: row;
     justify-items: left;
     flex-wrap: wrap;
-    max-width: 40%;   
+    width: 30%;   
     font-size: 10px;
     font-weight: bold;
     font-style: normal;   
@@ -881,8 +932,8 @@ nav a:hover
 {
     border:0;
     height:0;
-    width: 30%;
-    padding: auto;
+    margin: 0 2em 2em 0;
+    padding: ;
     font-style:normal;  
 }
 
@@ -1020,19 +1071,73 @@ font-style:normal;
  }    
 
 
+
+/*--cercle d'info-- */
+
+#cinfo
+{
+    display: flex;
+    justify-items: left;
+    max-width: 40%;
+    margin: 3em 5em 0em 0em;
+    padding: 0em 1em 1em 0em;
+}
+
+.cercle
+ {   
+
+ height: 10px; 
+ width: 5%; 
+ background:white;
+ border:2px solid rgb(233, 230, 230);
+ border-radius: 100%; 
+ margin: 8px 8px 10px 4px;
+ padding: 0px 0px 10px 11px;        
+ }
+
+.info
+{
+    font-size: 9px;
+    position:absolute;
+    color: #0065fc;
+    margin:3px 40px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
+}
+
+.pin
+{
+    position: relative;
+    font-size: .9em;
+    color: gray;  
+    padding: 3px 40px 10px 0;
+}
+
+
+
+
+
+
 /*--MQ-aside--*/
+
+section
+ {
+     
+     flex-direction: column;
+     
+ }
+
 
 #flex-container-as
 {
-   display: flex;
-   justify-items: left;
-   max-width: 40%; 
+  flex-direction: column;
+  justify-content: left;
   background-color: #F2F2F2;
-  width: auto;
-  height: 28em;
-  border-radius:.5em;
-  margin: auto;
-  padding:0px;
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
+  margin: 1em 0em 0 0;
+  padding:;
+  position:;
 }
 
 
@@ -1040,36 +1145,51 @@ font-style:normal;
 {
     border: gray;
     background-color: white;
-    border-radius: .5em;
-    height: auto;
-    width: 40%;
-    margin: ;
-   
+    border-radius: 1em;
+    height: 6.7em;
+    width: 23%;
+    margin: 1em 15.5em 0 2em;
+    padding: auto;
+  
 }
+
+.img2
+{
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    position:;
+    width:6em;
+    height:6.6em;
+    object-fit:cover;
+}
+
+
+.populaire
+{
+    margin: 0 0em 0 2em;
+    text-align-last: inherit;
+    font-weight: bold;
+}
+.fa-chart-line
+{
+margin: 0 1em 0 4em;
+}
+
+
 
 
  /* --MQ-illustrations-Hébergement à Marseille-- */
 
- section
- {
-     display:flex;
-     flex-direction: column;
-     justify-content: space-between;
-     margin: 0px;
- }
-
-
+ 
 #flex-container
 {
-    display: flex;
-    justify-items: left;
-    max-width: 40%;   
+flex-direction: column;    
+    max-width: auto;   
     background-color: #F2F2F2;
-    margin:auto;
-    width: auto;
-    height: 100%;
-    border-radius: .5em;  
+    margin:0em 0 0 0;
+    width: 100%;
     height: auto;
+    border-radius: .5em;  
 }
 
 #flex-container > div 
@@ -1077,116 +1197,167 @@ font-style:normal;
     border: gray;
     background-color: white;
     border-radius: .5em;
-    height: 7.8em;
-    width: 16%;
-    margin: auto;
+    height: 8.9em;
+    width: 24%;
+    margin-top:1em;
     padding: auto;
   }
  
-  
+  #flex-container h1
+  {
+      margin: 0em 5em 10em 0em;
+      font-size: 1.2em;
+  }
+
+#flex-container p
+{
+  margin: .4em 0em 0 0;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.img
+{
+    width:13.5em;
+    height:5em;
+    object-fit: cover;
+    padding: 0em 4em 1em 0;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 /*--MQ-grid--*/
+
+
+article h2
+
+{
+    font-size: 1.2em;
+    padding: 3em 0em 0em 0;
+    margin: 1em 0em 0 1.9em;
+    font-weight: bold;
+}
 
 .wrapper
 {
-   display:grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-auto-rows: 30px;
-   width: 40%;
-   margin:auto;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width:100%;
+   margin:0 0 0 1em;
    height: auto;
 
 }
 
 .wrapper > div
 {
-    box-shadow: 5px 5px #F2F2F2;
-    border:2px;
+    box-shadow: 3px 3px #F2F2F2;
+    border:1px;
+    height: 9em;
+    width: 31%;
+    margin: 2em 0 0 1em;
+    padding: .6em 0 0 0;
     background-color:#ffff;
-    border-radius: 1em;
-    object-fit: cover;
-    
+    border-radius: 1em;    
 }
 
-.one 
+.wrapper p
 {
-    grid-column:1/2;
-    grid-row: 1/9; 
+    font-weight: bold;
+    font-size: 12px;
+    margin: .5em 0em 0em 2em;
 }
+
+
 .vp
 {
-    width: 13.5em;
-    height: 21em;
+    width:13em;
+    height:7em;
+    object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
 }
 
-.two 
-{ 
-    grid-column:1/2;
-    grid-row: 1/5 ;
-  
-}
 .fp
-{   width: 15.5em;
-    height: 9em;
+{   width:13em;
+    height:7em;
+    object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
 
 }
 
-.three 
-{
-    grid-column:1/2;
-    grid-row: 5/9;
-}
 .if
 {
-    width: 15.5em;
-    height: 8.5em;
+    width:13em;
+    height:7em;
+    object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
 }
 
-.four 
-  {
-    grid-column:1/2 ;
-    grid-row: 1/9 ;
-  }
   .ng
   {
-    width: 13em;
-    height: 21.1em;
+    width:13em;
+    height:7em;
+    object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
   }
 
-
-.five 
-{
-    grid-column:1/2 ;
-    grid-row:1/5 ;
-}
 .nd
 {
-    width: 14.3em;
-    height: 9em;
+    width:13em;
+    height:7em;
+    object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
-}
-
-.six 
-{
-    grid-column:1/2 ;
-    grid-row:5/9 ;
 }
 
 .pl
 {
-    width: 14.3em;
-    height: 8.6em;
+    width:13em;
+    height:7em;
+    object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
 }
+
+
+
+/*--footer--*/
+
+#foot-container
+{    
+    display: flex;
+    flex-direction: column;
+    border:1px;
+    background-color: #F2F2F2;
+    width:100%;
+    height: auto;
+    margin: ;
+}
+
+#foot-container > div
+{
+    text-align: justify;
+    margin: 0em 0em 0 2em  ;
+    padding:2em 0 0 0 ;
+    color: #808080; 
+    text-align: justify;
+    line-height: 1.6em;    
+}
+
+#foot-container h1
+{
+    color: black;
+    font-weight: bold;
+}
+
+
+
 
 
 }
