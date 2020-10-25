@@ -10,26 +10,29 @@ body
 }
 
 
-/* line--hr*/
-.hr
-{
-    border-color:#0065fc;
-    width: 25%;
-    margin: 10px 0px 0 0px;
-    border-width: thin;
-}
+/* blueline-menue-*/
 
-/* --logo-nav-- */
+ 
 
-#logo-nav
+/* --titre-principal-- */
+
+.titre-principal
 {
     display: flex;
-    justify-content: space-between;
-   
+    flex-wrap:wrap;
+    justify-content: space-between;  
 }
+
+
+.menu {
+   
+    margin: 0em 30em 0em 0em ;
+    padding:0 0em 0em 0 ;  
+  }
+
 .logo
-{
-    width: 40%;
+{vertical-align: top;
+    width: 250px;
     margin: 3em 0 0 0;
 }
 
@@ -40,6 +43,13 @@ nav ul
   display: inline-flex; 
   margin : 40px 170px 0 0px;
 }
+
+.blueline
+{
+    border-top: 1px solid #0065fc;
+    width:150px ;
+}
+
 
 nav li
 {
@@ -101,20 +111,22 @@ h1+p
 
 /* --formulaire--*/
 
-#recontainer
+.recontainer-a
 {
   display: inline-flex;
   flex-direction: row;
   width: 40%;
   font-size: 12px;
   font-weight: bold;
+  visibility: visible;
 } 
+
 .fai
 {
     margin: 0em 0em 6em 10em;
-    padding: 0 0 0 0em;
-    
+    padding: 0 0 0 0em;   
 }
+
 .left
 {
     border:0px;
@@ -126,30 +138,53 @@ h1+p
     border-bottom-left-radius: 1em;
 }
 
+
 .middle
 {
-    display:block;
+display:block;
 width:150px;
  border: .01px solid lightgray;
  position: relative;
  width: 35%; 
  height:32px;
 }
-
-.button
-{
-    border:10px;
-    width: 120%; 
-    height:33px;
-    background-color: #0065fc;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius:1em;
-}
-
 .middle h1
 {
     margin: .7em 0 0 1em;
 }
+
+
+.boutton
+{
+    border:0px;
+    width: 20%; 
+    height:33px;
+    background-color: #0065fc;
+    color: #ffffff;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius:1em;
+}
+
+
+/* shadow-button*/
+
+.boutton:hover 
+{
+    background-color:#808080;
+}
+
+
+/*hidden-item--*/
+
+.recontainer-b
+{
+  display: none;
+  flex-direction: row;
+  width: 40%;
+  font-size: 12px;
+  font-weight: bold;
+} 
+
 
 
 
@@ -782,71 +817,61 @@ article h2
 
 /*--Start-Mqueries-mobile--*/
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 1240px)
 
 {
    body
     {
+        width: 100%;
      margin:0 0 0 1em;
     }
 
-    .selector-for-some-widget {
-        box-sizing: content-box;
-      }
+    
+/*--MQ-header-*/
 
-
-
-/* --logo-nav-- */
-
-.logo
+header
 {
-margin-bottom: 2em;
- 
+    width:100%;
+}
+
+
+/* --MQ-logo-nav-- */
+
+
+
+.titre-principal
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly ; 
 }
 
 
 /*MQ-nav--*/
-
-.nav
-{
-    text-align: left;
-}
-
-
-nav ul
-{
-  list-style-type: none;
-  margin: 7em 18em 0 0;
-    
+ul
+ {
+    display: flex;
+     
+    width: 20%; 
 }
 
 nav li
-    {
-             
-    }
-    
-    nav a
-    {
-        font-size: 1em;
-        
-        
-    }
+{
+    margin: 0 0em 1em 0;
+}
+
+.blueline
+{
+    border-top: none;
+    border-bottom: 1px solid #0065fc;
+    border-top-width:150px ;
+}
 
 nav a:hover
 {
-    color:grey;
-    border-bottom: 0; 
-}
-
-
-/* line--hr*/
-.hr
-{
-    border-color:#0065fc;
-    float: unset;
-    width: 30%;
-    margin: 1em 10em 0 0;
-    border-width: thin;
+    color:#0065fc;
+    border-bottom: 2.5px solid #0065fc; 
 }
 
 
@@ -857,7 +882,7 @@ nav a:hover
 {
     display: flex;
     justify-items: left;
-    max-width: 30%; 
+    max-width: 35%; 
     margin: 3em 0 0 0;  
     font-weight: bold; 
 }
@@ -866,50 +891,99 @@ nav a:hover
 
 /* --MQ-formulaire--*/
 
-#recontainer
+.recontainer-a
 {
-  display: inline-flex;
+  display: none;
+} 
+
+
+.boutton
+{
+    border:0px;
+    width: 20%; 
+    height:33px;
+    background-color: #0065fc;
+    color: #ffffff;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius:1em;
+    margin-right: 20em;
+}
+
+
+
+/*MQ-hidden-item--*/
+
+.recontainer-b
+{
+  display: flex;
   flex-direction: row;
+  justify-items: left;
   width: 40%;
   font-size: 12px;
   font-weight: bold;
+  visibility: visible;
+  position: relative;
 } 
-.fai
-{
-    margin: 0em 0em 6em 10em;
-    padding: 0 0 0 0em;
-    
-}
-.left
+
+.left-h
 {
     border:0px;
-    width: 5%;
+    width: 10%;
     height:33px;
     background: lightgray;
     padding: 0 0 0 .7em ;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
+    position: relative;
 }
 
-.middle
+.faii
 {
-    display:block;
-width:150px;
- border: .01px solid lightgray;
- position: relative;
- width: 35%; 
- height:32px;
+    margin: 0em 4em 0em 0em;
+    padding: 10em 0em 0em 0em;   
 }
 
-.button
+
+.middle-h
 {
-    border:10px;
-    width: 120%; 
-    height:33px;
-    link: i class="fas fa-search";
+display:block;
+ width:25%;
+ border: .2px solid lightgray;
+ width: 63%; 
+ height:31.5px;
+ position:relative;
+}
+
+.middle-h h1
+{
+    margin: .7em 0 0 1em;
+}
+
+.btn
+{
+    border:none;
+    width: 15%; 
+    height:34px;
     background-color: #0065fc;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius:1em;
+    border-radius: 1em;
+    cursor: pointer;
+    padding: 0em 1em 0em 0em;
+    margin: 0em 0em 15em 14em;
+    position: absolute;
+}
+
+.fa-search
+{
+    color:#ffffff;
+    padding: 5px 3px 10px 0;
+    margin:7px 0px 4px 12px;
+    font-size: 11px;
+    border: none;
+}
+
+.btn:hover 
+{
+    background-color:#808080;
 }
 
 
@@ -919,65 +993,84 @@ width:150px;
 #container
 {
     display: flex;
-    flex-direction: row;
-    justify-items: left;
-    flex-wrap: wrap;
-    width: 30%;   
+    flex-wrap: wrap;   
+    justify-content: space-between; 
+    background-color: #ffffff;
+    margin:2em 4em 0 0;;
+    padding: 0em 0 0 2em;
+    width: 40%;   
     font-size: 10px;
     font-weight: bold;
-    font-style: normal;   
+    font-style: normal;  
+    position:relative; 
 }
  
-.filtres
+#container > div
 {
-    border:0;
-    height:0;
-    margin: 0 2em 2em 0;
-    padding: ;
-    font-style:normal;  
+    border:2px solid #F2F2F2;
+    margin: 3.5em 2em 0 0;
+    padding: 0em 3.5em 0em 0em;
+    position:relative;
+    border-radius: 15px;
+    position: relative;
 }
 
-.c1
-{   
-    height: 35px; 
-    width: 18.5%; 
-    background: #DEEBFF;
-    border:0;
-    border-radius: 100%; 
-    margin: auto;
-    padding:auto;
-    
-}
-.fas
-{ 
-    padding: auto;
-}
+
 
 .economique h1
 { 
-    padding-left: auto;
+    padding-left: ;
 }
 
 
 .economique
 {
 border: 1px solid rgb(233, 230, 230);
-height: 2.6em;
-width: 20%;
+height: 2.9em;
+width: 25%;
 padding:auto;
 margin:auto;
 border-radius: 5em;
 font-style:normal;
+position: absolute;
 }
+
+.filtres
+{
+    border:0;
+    height:0;
+    margin: 5em 2em 0em 0;
+    padding: ;
+    font-style:normal;  
+    position: absolute;
+}
+
+.c1
+{   
+    height: 30px; 
+    width: 18.5%; 
+    background: #DEEBFF;
+    border:0;
+    border-radius: 100%; 
+    margin: 0 2em 6em 0;
+    padding: 0 1em 0 0em;
+    position:absolute;  
+}
+.fas
+{ 
+    padding: 0 0px 0 0 ;
+}
+
+
 
 /*familial*/
 
 .familial
 {
 border: 1px solid rgb(233, 230, 230);
-height: 2.6em;
-width: 15%;
-margin:auto;
+height: 2.8em;
+width: 16%;
+margin:;
 border-radius: 5em;
 font-style:normal;
 }
@@ -989,8 +1082,9 @@ font-style:normal;
  background: #DEEBFF;
  border:0;
  border-radius: 100%; 
- margin:auto;
+ margin:0 4em 4em 0;
  padding: auto;
+ position: absolute;
         
 }
 .fas
@@ -1009,8 +1103,8 @@ padding: auto;
 .romantique
 {
     border: 1px solid rgb(233, 230, 230);
-    height: 2.6em;
-    width: 18.5%;
+    height: 2.8em;
+    width: 23%;
     margin:auto;
     border-radius: 5em;
     font-style:normal;
@@ -1023,7 +1117,7 @@ padding: auto;
  background: #DEEBFF;
  border:0;
  border-radius: 100%; 
- margin: auto ;
+ margin: 0 3em 3em 0 ;
  padding: auto;        
  }
 
@@ -1042,8 +1136,8 @@ padding: auto;
 .animeaux_autorisés
 {
 border: 1px solid rgb(233, 230, 230);
-height: 2.6em;
-width: 22%;
+height: 2.8em;
+width: 36%;
 margin:auto;
 border-radius: 5em;
 font-style:normal;
@@ -1056,7 +1150,7 @@ font-style:normal;
  background: #DEEBFF;
  border:0;
  border-radius: 100%; 
- margin: auto;
+ margin: 0 4em 3em 0;
  padding: auto;        
  }
     
@@ -1355,10 +1449,6 @@ article h2
     color: black;
     font-weight: bold;
 }
-
-
-
-
 
 }
 /*--End-MQ--*/
