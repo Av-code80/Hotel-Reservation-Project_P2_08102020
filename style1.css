@@ -72,13 +72,14 @@ nav a:hover
 
 /* Trouvez votre hebergement*/
 
-#hcentre
+.hcentre
 {
     display: flex;
     flex-direction: column;
+    width:50%;
 }
 
-.hebergement
+.hébergement
 {
     font-weight: bold;
     margin: 2em 0 0 0;
@@ -87,7 +88,7 @@ nav a:hover
 .centre
 {
     color:gray;
-    font-size:12px;
+    font-size:14px;
     margin-top: 1em;
     padding-bottom: 1em;
 }
@@ -111,7 +112,7 @@ h1+p
 {
   display: inline-flex;
   flex-direction: row;
-  width: 55%;
+  width: 64%;
   font-size: 12px;
   font-weight: bold;
   visibility: visible;
@@ -125,8 +126,8 @@ h1+p
 
 .left
 {
-    width: 25px;
-    height:33px;
+    width: 4.5%;
+    height:38px;
     background: lightgray;
     padding: 0 0 0 .7em ;
     border-top-left-radius: 1em;
@@ -139,20 +140,21 @@ h1+p
 display:block;
  border: .01px solid lightgray;
  position: relative;
- width: 25%; 
- height:31.5px;
+ width: 27%; 
+ height:36px;
 }
 .middle h1
 {
-    margin: .7em 0 0 1em;
+    margin: 10px 0 0 12px;
+    font-size:13px;
 }
 
 
 .boutton
 {
     border:0px;
-    width: 15%; 
-    height:32px;
+    width: 13%; 
+    height:38px;
     background-color: #0065fc;
     color: #ffffff;
     border-top-right-radius: 1em;
@@ -178,61 +180,59 @@ display:block;
 
 
 
-
 /*--filtres--*/
 
 .container-aa
 {
     display:flex; 
-    width: 72%;
+    width: 70%;
     font-size: 14px;
     font-weight: bold;
-    margin: 2em 5em 0 0;
-    padding: 0 4em 0 0 ;
-    font-style: normal;
+    margin: 30px 0px 0px 0px;
     visibility: visible;
 }
 
 .filtres
 {
     width: 0%;
-    padding: 10px 40px 10px 2px;
+    padding: 10px 48px 10px 2px;
     font-style:normal;  
 }
 
-.c1
+.cercle-filtre
 {   
-    height: 35px; 
+    height: 37px; 
     position:relative;
-    width: 20%; 
+    width: 24%; 
     background: #DEEBFF;
-    border:0;
     border-radius: 100%; 
-    margin: 0px 15px 2.5px 0px ;
-    padding: 0px 6px 2px 3px;
+    margin: -1px 0px 0px -2px ;
+    padding: -1px 0px 15px 0px;
+    color: #0065FC;
     
 }
 .fas
 { 
     padding: 10px 10px 0px 1px;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 9px;
+    font-size: 12px;
 }
 
 .container-aa h1
 { 
     padding-left: 50px;
     position:absolute;
+    font-size: 13px;
 }
 
 
 .economique
 {
-border: 1px solid rgb(233, 230, 230);
-height: 36px;
-width: 21%;
-margin-left: 20px;
+border: 2px solid rgb(233, 230, 230);
+height: 35px;
+width: 20%;
+margin:auto;
 border-radius: 5em;
-font-style:normal;
 position: relative;
 
 }
@@ -241,15 +241,12 @@ position: relative;
 
 .familial
 {
-border: 1px solid rgb(233, 230, 230);
-height: 36px;
-width: 17%;
+border: 2px solid rgb(233, 230, 230);
+width: 15%;
 margin:auto;
 border-radius: 5em;
 position: relative;
 }
-
-
 
 
 
@@ -257,8 +254,7 @@ position: relative;
 
 .romantique
 {
-    border: 1px solid rgb(233, 230, 230);
-    height: 36px;
+    border: 2px solid rgb(233, 230, 230);
     width: 19%;
     margin:auto;
     border-radius: 5em;
@@ -266,16 +262,13 @@ position: relative;
 }
 
 
-
-
  
 /* animeaux-autorisés*/
 
 .animeaux_autorisés
 {
-border: 1px solid rgb(233, 230, 230);
-height: 36px;
-width: 25%;
+border: 2px solid rgb(233, 230, 230);
+width: 24%;
 margin:auto;
 border-radius: 5em;
 position: relative;
@@ -283,8 +276,7 @@ position: relative;
 }
 
 
-         
- 
+
 
 /*--cercle d'info-- */
 
@@ -302,7 +294,7 @@ position: relative;
 
  height: 10px; 
  position:relative;
- width: 3%; 
+ width: 3.5%; 
  background:white;
  border:2px solid rgb(233, 230, 230);
  border-radius: 100%; 
@@ -315,7 +307,7 @@ position: relative;
     font-size: 9px;
     position:absolute;
     color: #0065fc;
-    margin:3px 0px 0px 2px ;
+    margin:3px 0px 0px 2.5px ;
     padding: 0px 4px 0px 0px 
 }
 
@@ -392,65 +384,26 @@ position: relative;
     border-top-right-radius: 10px;
     position:absolute;
 }
-#text1 
+.text-boxe 
 {
      position:absolute;
     text-align: left;
     width:10.1em;
-    height:0em;
-    padding:85px 0px 0px 7px;
-    
+    padding:91px 0px 0px 11px;
+    line-height: 17px;
+    font-size:13px;   
 }
 
-#text2 
+.tfirst
 {
-    
-    position:absolute;
-    text-align: left;
-    width:10.1em;
-    height:4.1em;
-    padding:5.4em 6em 0em .8em;
-    
+    font-weight: bold;
 }
-#text3 
+.tsecond
 {
-    
-    position:absolute;
-    text-align: left;
-    width:10.1em;
-    height:4.1em;
-    padding:5.4em 6em 0em .8em;
-    
-}
-#text4 
-{
-    
-    position:absolute;
-    text-align: left;
-    width:10.1em;
-    height:4.1em;
-    padding:5.4em 6em 0em .8em;   
+    color:#808080;
+    font-size: 12px;
 }
 
-#text5 
-{  
-    position:absolute;
-    text-align: left;
-    width:10.1em;
-    height:4.1em;
-    padding:5.4em 6em 0em .8em;
-}
-
-#text6 
-{
-    
-    position:absolute;
-    text-align: left;
-    width:10.1em;
-    height:4.1em;
-    padding:5.4em 6em 0em .8em;
-    
-}
 
 
 /* Par défaut, une étoile est en gris,
@@ -478,8 +431,8 @@ position: relative;
 	.stars {
 		display: inline-flex;
 		justify-content: center;
-        font-size: 9px;
-        margin: 0px 0px 50px 0px;
+        font-size: 8.5px;
+        margin: 0px 0px 50px -1px;
 
 	}
 
@@ -506,9 +459,9 @@ position: relative;
   flex-direction: column;
   background-color: #F2F2F2;
   width: 100%;
-  height: 514px;
+  height: 512px;
   border-radius: 1em;
-  margin: -2px 0px 0px -8px;
+  margin: 0px 0px 0px -8px;
   padding:0px;
   position: relative;
 }
@@ -537,34 +490,38 @@ position: relative;
     object-fit:cover;
     position: absolute;
 }
-.text22
+.text-aside
 {
     position:relative;
     text-align: left;
-    width:10.3em;
-    height:4.5em;
-    padding:0em 0em 0em 7em;
-    margin: 0 2px 0 0;
+    width:185px;
+    padding:0px 15px 0px 107px;
+    margin: 7px 37px 0px -55px;
+    font-size: 13px;
+    line-height: 13px;
 }
 
-.text23
+.first-as
 {
     position:relative;
     text-align: left;
-    width:10.3em;
-    height:4.5em;
-    padding:0em 0em 0em 7em;
-    margin: 0 2px 0 0;
+    width:125px;
+    height:60px;
+    padding:5px 0px 0px 68px;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
 }
 
-.text24
+.second-as
 {
     position:relative;
     text-align: left;
-    width:10.3em;
-    height:4.5em;
-    padding:0em 0em 0em 7em;
-    margin: 0 2px 0 0;
+    width:105px;
+    height:48px;
+    padding:0px 0px 0px 68px;
+    margin: -28px 0px 0px 0px;
+    color:gray;
+    font-size:12px;
 }
 
 
@@ -577,7 +534,17 @@ position: relative;
 }
 .fa-chart-line
 {
-margin: 0px 0px 13px 90px;
+margin: 0px 0px 13px 102px;
+font-size: 18px;
+}
+
+.stars-as 
+{
+    display: inline-flex;
+    justify-content: center;
+    font-size: 8.5px;
+    margin: -3px 0px 0px 67px;
+
 }
 
 
@@ -609,21 +576,20 @@ article
 article h2
 
 {
-    font-size: 1em;
-    padding: 3em  1em 0em 0;
-    margin: 0em 1.5em 0 0;
+    font-size: 19px;
+    padding-top: 40px;
+    margin: 0px 10px 0px -36px;
     font-weight: bold;
 }
 
 .wrapper
 {
    display:grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(4, 240px);
    grid-auto-rows: 30px;
    grid-gap:20px;   
    width: 100%;
-   margin:1em 4em 0em 0em;
-
+   margin:14px 0px 0px -37px;
 }
 
 .wrapper > div
@@ -642,7 +608,7 @@ article h2
 }
 .vp
 {
-    width: 16.5em;
+    width: 240px;
     height: 21em;
     object-fit: cover;
     border-top-left-radius: 1em;
@@ -656,7 +622,7 @@ article h2
   
 }
 .fp
-{   width: 16.6em;
+{   width: 240px;
     height: 9em;
     object-fit:cover;
     border-top-left-radius: 1em;
@@ -671,7 +637,7 @@ article h2
 }
 .if
 {
-    width: 16.6em;
+    width: 240px;
     height: 8.5em;
     object-fit:cover;
     border-top-left-radius: 1em;
@@ -685,7 +651,7 @@ article h2
   }
   .ng
   {
-    width: 16.5em;
+    width: 240px;
     height: 21em;
     object-fit:cover;
     border-top-left-radius: 1em;
@@ -700,7 +666,7 @@ article h2
 }
 .nd
 {
-    width: 16.6em;
+    width: 240px;
     height: 8.5em;
     object-fit:cover;
     border-top-left-radius: 1em;
@@ -714,7 +680,7 @@ article h2
 }
 .pl
 {
-    width: 16.6em;
+    width: 240px;
     height: 8.5em;
     object-fit:cover;
     border-top-left-radius: 1em;
@@ -735,23 +701,32 @@ article h2
 #foot-container
 {    
     display: flex;
-    justify-content: space-around;
+    justify-content: ;
     border:1px;
     background-color: #F2F2F2;
-    width:1050px;
+    width:1110px;
     height: 200px;
-    margin: 3em 0 0 0;
+    margin: 50px 40px 0px -50px;
 }
 
 #foot-container > div
 {
-    text-align: left;
-    margin: 2em 2em 0 0 ;
-    padding-right:5em ;
+    margin:31px 5px 0px 54px;
+    padding-right:118px ;
     color: #808080; 
     text-align: justify;
     line-height: 1.6em;    
 }
+
+
+#foot-container h1
+{
+    font-weight: bold;
+    color:#000000;
+}
+
+
+
 
 
 
@@ -810,7 +785,7 @@ nav li
 .blueline
 {
     border-top: none;
-    border-bottom: 1px solid #0065fc;
+    border-bottom: 3px solid #0065fc;
     border-top-width:150px ;
 }
 
@@ -824,14 +799,32 @@ nav a:hover
 
 /*--MQ-hébergement-centre*/
 
-#hcentre
+.hcentre
 {
     display: flex;
-    justify-items: left;
-    max-width: 35%; 
-    margin: 3em 0 0 0;  
-    font-weight: bold; 
+    flex-direction: column;  
+    width: 100%;    
 }
+
+.hébergement
+{
+    font-weight: bold;
+    margin-top: 30px;
+    width:39%;
+    font-size: 20px;
+}
+
+.centre
+{
+    color: gray;
+    font-size:15px;
+    width: 37%;
+    margin-top: 10px;
+    padding-bottom: 12px;
+}
+
+
+
 
 
 
@@ -864,57 +857,56 @@ nav a:hover
   display: flex;
   flex-direction: row;
   justify-items: left;
-  width: 40%;
-  font-size: 12px;
+  width: 100%;
   font-weight: bold;
   visibility: visible;
   position: relative;
+  margin-top: 18px;
 } 
 
 .left-h
 {
-    border:0px;
-    width: 12%;
-    height:30.4px;
-    background: lightgray;
+    width: 7%;
+    height:43px;
+    background: #F2F2F2;
     padding: .2em 0 0 .2em ;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     position: relative;
 }
 
-.faii
+.fas
 {
-    margin: 0em 4em 0em 0em;
-    padding: 10em 0em 0em 0em;   
+    margin: 8px 0px 0px 15px;
+    font-size:16px;
 }
 
 
 .middle-h
 {
-display:block;
- width:25%;
- border: .2px solid lightgray;
- width: 63%; 
- height:31.5px;
+ display:block;
+ border: .1px solid lightgray;
+ width: 30%; 
+ height:44px;
  position:relative;
 }
 
 .middle-h h1
 {
-    margin: .7em 0 0 1em;
+    font-size: 14px;
+    margin: 15px 0 0 12px;
 }
 
 .btn
 {
     border:none;
-    width: 15%; 
-    height:34px;
+    width: 8%; 
+    height:45px;
     background-color: #0065fc;
-    border-radius: 1em;
+    border-radius: 13px;
     cursor: pointer;
-    padding: 0em 1em .3em .5em;
-    margin: 0em 0em 15em 14em;
+    padding: 0px 0px 4px 4px;
+    margin-left: 220px;
     position: absolute;
 }
 
@@ -952,52 +944,53 @@ display:block;
 .container-bb
 {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;   
-    justify-content: space-between; 
     background-color: #ffffff;
-    margin:3em 5em 0 0;
-    padding: 1em 0 2em 2em;
-    width: 42%;   
-    font-size: 10px;
+    margin:16px 0px 0px 0px;
+    padding: 10px 0px 20px 4px;
+    width: 100%;   
+    font-size: 13px;
     font-weight: bold;
-    font-style: normal;  
     position:relative; 
     visibility: visible;
 }
  
 .container-bb > div
 {
-    border:2px solid #F2F2F2;
-    margin: 2em 2em 0 0;
-    padding: 0em 3.5em 0em 0em;
+    border:2px solid lightgray;
+    margin: 29px 10px 0px 0px;
+    padding: 0px 0px 3px 10px;
     position:relative;
     border-radius: 15px;
     position: relative;
+    color: #0065FC;
+
 }
 
 .container-bb h1
 {
     margin: 0em 2em 0em 0em;
     padding: 0 0 .5em 0;
-    font-size: 1.2em;
+    font-size: 16px;
     position:absolute;
 }
 
 
 .economique-h
 {
-border: 1px solid rgb(233, 230, 230);
+border: 2px solid #d3d3d3;
 height: 2.9em;
 width: 28%;
-padding:auto;
-margin:auto;
+padding:0px 0px 3px 10px;
+margin:29px 10px 0px 0px;
 border-radius: 5em;
 font-style:normal;
 position: absolute;
 }
 
 
-.c1
+.cercle-filtre
 {   
     height: 29px; 
     width: 18.2%; 
@@ -1033,16 +1026,7 @@ border-radius: 5em;
 font-style:normal;
 }
 
-.c2
-{   
-    height: 10px; 
-    width: 37%; 
-    background: #DEEBFF;
-    border-radius: 100%; 
-    margin:0 4em 4em 0;
-    padding: 0 0 2em .7em;
-        
-}
+
 .fas
 { /* à régler fas vers le droit*/
 padding: 0em 4em 0em 0em ;
@@ -1061,7 +1045,7 @@ margin: 0 1em 0 0;
 
 .romantique-h
 {
-    border: 1px solid rgb(233, 230, 230);
+    border: 2px solid rgb(233, 230, 230);
     height: 2.9em;
     width: 26%;
     margin:auto;
@@ -1069,17 +1053,6 @@ margin: 0 1em 0 0;
     font-style:normal;
 }
 
-.c3
-{   
- height: 27px; 
- width: 36%;
- background: #DEEBFF;
- border:0;
- border-radius: 100%; 
- margin: 0 3em 4em 0 ;
- padding: .3em .5em 0 0;
- padding: auto;        
- }
 
 .fas
 { 
@@ -1096,7 +1069,7 @@ margin: 0 1em 0 0;
 
 .animeaux_autorisés-h
 {
-border: 1px solid rgb(233, 230, 230);
+border: 2px solid rgb(233, 230, 230);
 height: 2.9em;
 width: 50%;
 margin:auto;
@@ -1104,16 +1077,6 @@ border-radius: 5em;
 font-style:normal;
 }
 
-.c4
- {   
- height: 29.3px; 
- width: 24.5%; 
- background: #DEEBFF;
- border:0;
- border-radius: 100%; 
- margin: 0 0em 0em 0;
- padding: 0 .0em 0 .1em;        
- }
     
 .fas
 { 
@@ -1265,7 +1228,7 @@ margin: 0 1em 0 4em;
 
 
 
- /* --MQ-illustrations-Hébergement à Marseille-- */
+ /* --MQ-Hébergement à Marseille-- */
 
  
 #flex-container
@@ -1297,7 +1260,7 @@ margin: 0 1em 0 4em;
       font-size: 1.2em;
   }
 
-  #text1 
+  .text-boxe
   {
        position:absolute;
       text-align: left;
@@ -1306,9 +1269,6 @@ margin: 0 1em 0 4em;
       padding:5.2em 4em 0em .8em;
       
   }
-
-
-
 
 #flex-container p
 {
@@ -1329,7 +1289,25 @@ margin: 0 1em 0 4em;
 }
 
 
+.text-boxe 
+{
+     position:absolute;
+    text-align: left;
+    width:10.1em;
+    padding:91px 0px 0px 11px;
+    line-height: 17px;
+    font-size:13px;   
+}
 
+.tfirst
+{
+    font-weight: bold;
+}
+.tsecond
+{
+    color:#808080;
+    font-size: 12px;
+}
 
 
 
