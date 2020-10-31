@@ -16,14 +16,16 @@ body
 .titre-principal
 {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-between;  
+    width: 100%;
 }
 
 
 .menu {
    
     margin: .5em 12em 0em 0em ;
+    
   }
 
 .logo
@@ -272,7 +274,6 @@ width: 24%;
 margin:auto;
 border-radius: 5em;
 position: relative;
-
 }
 
 
@@ -866,10 +867,10 @@ nav a:hover
 
 .left-h
 {
-    width: 7%;
+    width: 6%;
     height:43px;
     background: #F2F2F2;
-    padding: .2em 0 0 .2em ;
+    padding: 3px 2px 0 2px ;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     position: relative;
@@ -877,7 +878,7 @@ nav a:hover
 
 .fas
 {
-    margin: 8px 0px 0px 15px;
+    margin: 0px 0px 0px 16px;
     font-size:16px;
 }
 
@@ -885,7 +886,7 @@ nav a:hover
 .middle-h
 {
  display:block;
- border: .1px solid lightgray;
+ border: 1px solid #F2F2F2;
  width: 30%; 
  height:44px;
  position:relative;
@@ -913,7 +914,7 @@ nav a:hover
 .fa-search
 {
     color:#ffffff;
-    margin: 0 0em 5em 4em;
+    margin: -3px 0px 0px 9px;
     padding:auto;
     font-size: 11px;
     border: none;
@@ -947,11 +948,8 @@ nav a:hover
     flex-direction: row;
     flex-wrap: wrap;   
     background-color: #ffffff;
-    margin:16px 0px 0px 0px;
-    padding: 10px 0px 20px 4px;
-    width: 100%;   
-    font-size: 13px;
-    font-weight: bold;
+    margin:20px 0px 0px 0px;
+    width: 40%;   
     position:relative; 
     visibility: visible;
 }
@@ -959,57 +957,60 @@ nav a:hover
 .container-bb > div
 {
     border:2px solid lightgray;
-    margin: 29px 10px 0px 0px;
-    padding: 0px 0px 3px 10px;
-    position:relative;
-    border-radius: 15px;
+    margin: 40px 0px -27px 5px;
+    padding: 1px 5px 3px 10px;
+    height:34px;
+    border-radius: 25px;
     position: relative;
     color: #0065FC;
-
 }
+
+
 
 .container-bb h1
 {
-    margin: 0em 2em 0em 0em;
+ font-size: 15px;
+ margin:12px 0 0px 4px;
+ position: absolute;
+}
+
+
+h2
+{
+    margin: 10px 0px 0px 35px;
     padding: 0 0 .5em 0;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight:bold;
     position:absolute;
+    color: #000000;
 }
 
 
 .economique-h
 {
 border: 2px solid #d3d3d3;
-height: 2.9em;
-width: 28%;
+height: 34px;
+width: 46%;
 padding:0px 0px 3px 10px;
-margin:29px 10px 0px 0px;
-border-radius: 5em;
-font-style:normal;
+margin:28px 16px -11px 0px;
+border-radius: 25px;
 position: absolute;
 }
 
 
-.cercle-filtre
+.cercle-filtre-mq
 {   
-    height: 29px; 
-    width: 18.2%; 
+    height: 41px; 
+    width: 27%; 
     background: #DEEBFF;
-    border:0;
     border-radius: 100%; 
-    margin: 0 3em 8em 0;
-    padding: 0 1em 0em 0em;
+    margin: -2px 4px 0px -13px;
     position: absolute;
 }
-.fas
+.cercle-filtre-mq .fas
 { 
-    padding: 1em 0px .8em .6em ;
-}
-
-.economique-h h1
-{
-    margin: .8em 1em 0 3em;
-    font-size: 11px;
+  font-size: 13px;
+  margin: 3px 0px 0px 11px;
 }
 
 
@@ -1018,27 +1019,11 @@ position: absolute;
 
 .familial-h
 {
-border: 1px solid rgb(233, 230, 230);
-height: 2.9em;
-width: 23%;
-margin-right: ;
-border-radius: 5em;
-font-style:normal;
+border: 2px solid rgb(233, 230, 230);
+width: 36%;
 }
 
 
-.fas
-{ /* à régler fas vers le droit*/
-padding: 0em 4em 0em 0em ;
-margin: 0 1em 0 0;
-}
-
-.familial-h h1
-{ 
-    padding: .8em 0 0em 3em;
-    margin: 0 0 0 .6em;
-    font-size: 11px;
- }
 
 
 /* MQ-romantique*/
@@ -1046,11 +1031,7 @@ margin: 0 1em 0 0;
 .romantique-h
 {
     border: 2px solid rgb(233, 230, 230);
-    height: 2.9em;
-    width: 26%;
-    margin:auto;
-    border-radius: 5em;
-    font-style:normal;
+    width: 44%;
 }
 
 
@@ -1059,36 +1040,22 @@ margin: 0 1em 0 0;
  padding: auto;
  }
      
- .romantique-h h1
- { 
-   padding: .8em 0 1.5em 3em ;
-   font-size: 11px;
- }     
+   
 
 /* MQ-animeaux-autorisés*/
 
 .animeaux_autorisés-h
 {
 border: 2px solid rgb(233, 230, 230);
-height: 2.9em;
-width: 50%;
-margin:auto;
-border-radius: 5em;
-font-style:normal;
+width: 60%;
 }
 
     
 .fas
 { 
- padding: .6em 0em 0em .7em ;
+ padding:;
 }
          
-.animeaux_autorisés-h h1
-{ 
-  padding: .8em 0 1em 3.5em ;
-  font-size: 11px;
-
- }    
 
 
 
@@ -1099,19 +1066,19 @@ font-style:normal;
 #cinfo
 {
     display: flex;
-    width: 40%;
-    padding: 0 0 2em 0;   
+    width: 100%;
+    margin: 45px 0px 20px 0px
 }
 
 .cercle
  {   
 
- height: 9px; 
+ height: 12px; 
  width: 4%; 
- background:white;
- border:2px solid rgb(233, 230, 230);
+ background:#ffffff;
+ border: 2px solid rgb(233, 230, 230);
  border-radius: 100%; 
- margin: 9px 0px 9px 5px;
+ margin: 8px 0px 9px 5px;
  padding: 0px 1px 10px 9px;        
  }
 
@@ -1120,18 +1087,17 @@ font-style:normal;
     font-size: 9px;
     position:absolute;
     color: #0065fc;
-    margin:4px 5px 2px 0px ;
-    padding: 0px 0px 4px 0px ;
+    margin:5px 5px 2px 0px ;
 }
 
 .pin
 {
     position: absolute;
-    font-size: .9em;
-    width: 45%;
+    font-size: 14.5;
+    width: 37%;
+    margin-left:37px;
     color: gray;  
-    margin: 0 2em 0 3em;
-    padding: 3px 40px 10px 0;
+   
 }
 
 
@@ -1139,11 +1105,11 @@ font-style:normal;
 
 /*--MQ-Hidden-aside--*/
 
-section
- {
-     display: flex;
-     flex-direction: column;    
- }
+.mq-inversé
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 
 
@@ -1153,11 +1119,9 @@ section
   justify-content: left;
   background-color: #F2F2F2;
   width: 100%;
-  height: auto;
-  border-radius: 1em;
-  margin: 1em 0em 0 0;
-  padding:;
-  position:;
+  height: 510px;
+  margin-left: -60px;
+
 
 }
 
@@ -1165,67 +1129,77 @@ section
 #flex-container-as > div
 {
     border: gray;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 1em;
-    height: 6.7em;
-    width: 28%;
+    height: 125px;
+    width: 33%;
     margin: 1em 15.5em 0 2em;
-    padding: auto;
+    box-shadow: 3px 3px #F2F2F2;
 }
+
+.text-aside
+{
+    width: 185px;
+    padding: 15px 0px 0px 90px;
+    text-align: left;
+    position: relative ;
+    font-size: 14px;
+    line-height: 17px;
+}
+
 
 .img2
 {
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
     position:;
-    width:6em;
-    height:6.6em;
+    width:115px;
+    height:122px;
     object-fit:cover;
 }
 
-.text22
+
+
+.first-as
 {
     position:relative;
     text-align: left;
-    width:10.3em;
-    height:4.5em;
+    width:125px;
+    height:60px;
     padding:0em 0em 0em 7em;
     margin: 0 2px 0 0;
 }
 
-.text23
+.second-as
 {
     position:relative;
     text-align: left;
-    width:10.3em;
-    height:4.5em;
-    padding:0em 0em 0em 7em;
-    margin: 0 2px 0 0;
+    width:105px;
+    height:48px;
+    padding:0px 0px 0px 85px;
+    margin: -26px 0px 0px 13px;
+    color: #808080; 
+    font-size:13px;
 }
-
-.text24
-{
-    position:relative;
-    text-align: left;
-    width:10.3em;
-    height:4.5em;
-    padding:0em 0em 0em 7em;
-    margin: 0 2px 0 0;
-}
-
 
 .populaire
 {
-    margin: 0 0em 0 2em;
+    margin: 0 0px 0 32px;
     text-align-last: inherit;
     font-weight: bold;
 }
 .fa-chart-line
 {
-margin: 0 1em 0 4em;
+margin-left: 106px;
+font-size:20px;
 }
 
+.stars-as
+{
+    font-size: 10px;
+    margin: 0px 0px 0px 97px;
 
+}
 
 
  /* --MQ-Hébergement à Marseille-- */
@@ -1234,56 +1208,45 @@ margin: 0 1em 0 4em;
 #flex-container
 {
     flex-direction: column;    
-    max-width: auto;   
-    background-color: #F2F2F2;
-    margin:0em 0 0 0;
+    background-color: #ffffff;
+    margin:0px 7px 0px -27px;
+    padding: 35px 0px 0px 0px;
     width: 100%;
     height: auto;
-    border-radius: .5em; 
    
 }
 
 #flex-container > div 
 {
-    border: gray;
-    background-color: white;
-    border-radius: .5em;
-    height: 8.9em;
-    width: 28%;
-    margin-top:2em;
-    padding: auto;
+    border:gray;
+    background-color: #ffffff;
+    height: 160px;
+    width: 41%;
+    margin: 49px 0px -30px 29px;
+    padding: 9px 0px 0px 5px;
+    box-shadow: 3px 3px #F2F2F2;
   }
  
   #flex-container h1
   {
-      margin: 0em 5em 10em 0em;
-      font-size: 1.2em;
+      margin: 15px 0px 10px 32px;
+      font-size: 20px;
   }
 
-  .text-boxe
-  {
-       position:absolute;
-      text-align: left;
-      width:10.1em;
-      height:4em;
-      padding:5.2em 4em 0em .8em;
-      
-  }
+  
 
 #flex-container p
 {
-  margin: .4em 0em 0 0;
+  margin: 55px 0px 0px 32px;
   font-weight: bold;
-  font-size: .9em;
+  font-size: 16px;
 }
 
 .img
 {
-    width:13.5em;
-    height:5em;
+    width: 97%;
+    height: 100px;
     object-fit: cover;
-    padding: 0em 4em 1em 0;
-    margin: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -1291,25 +1254,26 @@ margin: 0 1em 0 4em;
 
 .text-boxe 
 {
-     position:absolute;
+    position:absolute;
     text-align: left;
-    width:10.1em;
-    padding:91px 0px 0px 11px;
+    width: 60%;
+    padding:106px 0px 0px 11px;
     line-height: 17px;
     font-size:13px;   
 }
 
-.tfirst
-{
-    font-weight: bold;
-}
+
 .tsecond
 {
-    color:#808080;
-    font-size: 12px;
+    font-size: 13px;
+    margin-top: -1px;
 }
 
-
+.stars
+{
+    font-size: 9px;
+    margin: 2px 0px 50px -1px;
+}
 
 /*--MQ-grid--*/
 
@@ -1317,9 +1281,9 @@ margin: 0 1em 0 4em;
 article h2
 
 {
-    font-size: 1.2em;
-    padding: 3em 0em 0em 0;
-    margin: 1em 0em 0 1.9em;
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+    margin: -12px 0px 0 -24px;
     font-weight: bold;
 }
 
@@ -1329,7 +1293,7 @@ article h2
    flex-direction: column;
    justify-content: space-around;
    width:100%;
-   margin:0 0 0 1em;
+   margin: 65px 0px 0px -36px;
    height: auto;
 
 }
@@ -1337,11 +1301,11 @@ article h2
 .wrapper > div
 {
     box-shadow: 3px 3px #F2F2F2;
-    border:1px;
-    height: 9em;
-    width: 36.5%;
-    margin: 2em 0 0 1em;
-    padding: .6em 0 0 0;
+    border: 1px solid #F2F2F2;
+    height: 160px;
+    width: 42%;
+    margin: 30px 0px 0px 13px;
+    padding: 0px 0 8px 0px;
     background-color:#ffff;
     border-radius: 1em;    
 }
@@ -1349,23 +1313,23 @@ article h2
 .wrapper p
 {
     font-weight: bold;
-    font-size: 12px;
-    margin: .5em 0em 0em 2em;
+    font-size: 14px;
+    margin: 20px 0px 0px 20px;
 }
 
 
 .vp
 {
-    width:13em;
-    height:7em;
+    width:100%;
+    height:100px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
 }
 
 .fp
-{   width:13em;
-    height:7em;
+{   width:100%;
+    height:100px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1374,8 +1338,8 @@ article h2
 
 .if
 {
-    width:13em;
-    height:7em;
+    width:100%;
+    height:100px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1383,8 +1347,8 @@ article h2
 
   .ng
   {
-    width:13em;
-    height:7em;
+    width:100%;
+    height:100px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1392,8 +1356,8 @@ article h2
 
 .nd
 {
-    width:13em;
-    height:7em;
+    width:100%;
+    height:100px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1401,8 +1365,8 @@ article h2
 
 .pl
 {
-    width:13em;
-    height:7em;
+    width:100%;
+    height:100px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1416,11 +1380,11 @@ article h2
 {    
     display: flex;
     flex-direction: column;
-    border:1px;
     background-color: #F2F2F2;
     width:100%;
-    height: auto;
-    margin: ;
+    height: 470px;
+    margin: 60px 0px 0px 0px ;
+    padding: 2px 0px 0px 0px ;
 }
 
 #foot-container > div
