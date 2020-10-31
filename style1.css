@@ -410,7 +410,7 @@ position: relative;
 /* Par défaut, une étoile est en gris,
    avec un padding et un curseur en forme de main. */
    .fa-star {
-	color: gray;
+	color: #d3d3d3;
 	cursor: pointer;
     padding: 0.0625rem;
     
@@ -767,34 +767,60 @@ header
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly ; 
+    width: 100%;
 }
 
 
 /*MQ-nav--*/
-ul
+nav ul
  {
     display: flex;
-     
-    width: 20%; 
+    margin: 21px 0px 0 -20px;
 }
+
 
 nav li
 {
-    margin: 0 0em 1em 0;
+    margin: 0px 37px 12px 0px;
 }
+
+
+.li-gray
+{
+    color: #808080;
+}
+
 
 .blueline
 {
-    border-top: none;
-    border-bottom: 3px solid #0065fc;
-    border-top-width:150px ;
+    border-image: linear-gradient(to right,blue 20%, lightgray 10%); /* gradient with required colors */
+    border-image-slice: 1;
+    border-width: 4px 0px 0px 0px;
+    width:700px;
+
 }
+
+
+
+
+
+.devant-logo
+{
+    margin: -60px 0px 0 -102px;
+    color: #0065FC;
+    font-size: 18px;
+}
+
+
 
 nav a:hover
 {
-    color:#0065fc;
-    border-bottom: 2.5px solid #0065fc; 
+    border-bottom: 2.5px solid #0065fc ; 
 }
+
+
+
+
 
 
 
@@ -817,7 +843,7 @@ nav a:hover
 
 .centre
 {
-    color: gray;
+    color: #808080;
     font-size:15px;
     width: 37%;
     margin-top: 10px;
@@ -901,7 +927,7 @@ nav a:hover
 .btn
 {
     border:none;
-    width: 8%; 
+    width: 7%; 
     height:45px;
     background-color: #0065fc;
     border-radius: 13px;
@@ -915,9 +941,7 @@ nav a:hover
 {
     color:#ffffff;
     margin: -3px 0px 0px 9px;
-    padding:auto;
-    font-size: 11px;
-    border: none;
+    font-size: 14px;
 }
 
 .btn:hover 
@@ -925,7 +949,6 @@ nav a:hover
     background-color:#808080;
     padding: 0 2em 1em 0;
 }
-
 
 
 
@@ -1059,8 +1082,6 @@ width: 60%;
 
 
 
-
-
 /*--cercle d'info-- */
 
 #cinfo
@@ -1105,6 +1126,8 @@ width: 60%;
 
 /*--MQ-Hidden-aside--*/
 
+/*--MQ-Section-inversée--*/
+
 .mq-inversé
 {
     display: flex;
@@ -1112,6 +1135,8 @@ width: 60%;
 }
 
 
+
+/*--MQ-Haside--*/
 
 #flex-container-as
 {
@@ -1121,8 +1146,6 @@ width: 60%;
   width: 100%;
   height: 510px;
   margin-left: -60px;
-
-
 }
 
 
@@ -1152,7 +1175,6 @@ width: 60%;
 {
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
-    position:;
     width:115px;
     height:122px;
     object-fit:cover;
@@ -1174,7 +1196,7 @@ width: 60%;
 {
     position:relative;
     text-align: left;
-    width:105px;
+    width:112px;
     height:48px;
     padding:0px 0px 0px 85px;
     margin: -26px 0px 0px 13px;
