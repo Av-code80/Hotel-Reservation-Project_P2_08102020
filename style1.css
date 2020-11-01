@@ -1,4 +1,5 @@
 
+
 head{
     font-family: 'Raleway', sans-serif;
 }
@@ -22,12 +23,6 @@ body
 }
 
 
-.menu {
-   
-    margin: .5em 12em 0em 0em ;
-    
-  }
-
 .logo
 {vertical-align: top;
     width: 250px;
@@ -35,17 +30,19 @@ body
 }
 
 
+.blueline
+{
+    border-top: 2px solid #0065fc;
+    width: 150px;
+    margin: 10px 210px 0px 0px;
+}
+
+
 nav ul
 {
   list-style-type: none;
   display: inline-flex; 
-  margin : 40px 170px 0 0px;
-}
-
-.blueline
-{
-    border-top: 1px solid #0065fc;
-    width:150px ;
+  margin : 35px 170px 0 0px;
 }
 
 
@@ -61,12 +58,12 @@ nav a
     padding-right: 2em;
     color: #0065fc;
     text-decoration:none;
-    font-style: normal;
+    font-style: normal;  
 }
 
 nav a:hover
 {
-    color:grey;
+    color: #808080;
     border-bottom: 2px solid #0065fc; 
 }
 
@@ -120,11 +117,6 @@ h1+p
   visibility: visible;
 } 
 
-.fai
-{
-    margin: 0em 0em 6em 10em;
-    padding: 0 0 0 0em;   
-}
 
 .left
 {
@@ -145,6 +137,7 @@ display:block;
  width: 27%; 
  height:36px;
 }
+
 .middle h1
 {
     margin: 10px 0 0 12px;
@@ -281,7 +274,7 @@ position: relative;
 
 /*--cercle d'info-- */
 
-#cinfo
+.cercle-info
 {
     display: flex;
     justify-items: left;
@@ -333,22 +326,22 @@ position: relative;
 /* --Hébergement à Marseille-- */
 
 
-#flex-container
+.flex-container
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;   
     background-color: #F2F2F2;
-    margin:0px;
-    padding: 1em 0 0 2em;
+    margin:0px 0px 0px -38px;
+    padding: 35px 0px 0px 35px;
     width: 100%;
     height: 495px;
     border-radius: 1em;
 
 }
 
-#flex-container > div 
+.flex-container > div 
 {
     border: gray;
     background-color:#ffffff;
@@ -360,14 +353,14 @@ position: relative;
     border-radius: 15px;  
   }
  
-  #flex-container h1
+  .flex-container h1
   {
-      margin:16px 25px 0px -5px;
+      margin:11px 25px 0px -5px;
       font-size: 19px;
       position:absolute;
   }
 
-#flex-container p
+.flex-container p
 {
   margin: 55px 470px 0px 0px;
   font-weight: bold;
@@ -460,7 +453,7 @@ position: relative;
   flex-direction: column;
   background-color: #F2F2F2;
   width: 100%;
-  height: 512px;
+  height: 531px;
   border-radius: 1em;
   margin: 0px 0px 0px -8px;
   padding:0px;
@@ -475,13 +468,13 @@ position: relative;
     border-radius: 1em;
     height: 115px;
     width: 63%;
-    margin: 3px -35px 27px 20px;
+    margin: 5px -49px 15px 22px;
     padding: .2em 4em 0em .3em;
     position:relative;
   
 }
 
-.img2
+.aside-img
 {
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
@@ -530,8 +523,7 @@ position: relative;
 {
     font-weight: bold;
     font-size: 19px;
-    padding: 2px 0px 0px 0px;
-    margin: 22px 0px 0px 21px;
+    margin: 37px 0px 2px 21px;
 }
 .fa-chart-line
 {
@@ -602,12 +594,12 @@ article h2
     object-fit: cover;
 }
 
-.one 
+.gride-port
 {
     grid-column:1/2;
     grid-row: 1/9; 
 }
-.vp
+.gride-img-port
 {
     width: 240px;
     height: 21em;
@@ -616,13 +608,13 @@ article h2
     border-top-right-radius:1em;
 }
 
-.two 
+.gride-pomègues
 { 
     grid-column:2/3;
     grid-row: 1/5 ;
   
 }
-.fp
+.gride-img-pomègues
 {   width: 240px;
     height: 9em;
     object-fit:cover;
@@ -631,12 +623,12 @@ article h2
 
 }
 
-.three 
+.gride-frioule
 {
     grid-column:2/3;
     grid-row: 5/9;
 }
-.if
+.gride-img-frioule
 {
     width: 240px;
     height: 8.5em;
@@ -645,12 +637,13 @@ article h2
     border-top-right-radius:1em;
 }
 
-.four 
+.gride-calanques
   {
     grid-column:3/4 ;
     grid-row: 1/9 ;
   }
-  .ng
+  
+  .gride-img-calanques
   {
     width: 240px;
     height: 21em;
@@ -660,12 +653,13 @@ article h2
   }
 
 
-.five 
+.gride-notre-dame 
 {
     grid-column:4/5 ;
     grid-row:1/5 ;
 }
-.nd
+
+.gride-img-notre-dame
 {
     width: 240px;
     height: 8.5em;
@@ -674,12 +668,13 @@ article h2
     border-top-right-radius:1em;
 }
 
-.six 
+.gride-longchamp
 {
     grid-column:4/5 ;
     grid-row:5/9 ;
 }
-.pl
+
+.gride-img-longchamp
 {
     width: 240px;
     height: 8.5em;
@@ -733,32 +728,21 @@ article h2
 
 
 
-
-
-
-
 /*--Start-Mqueries-mobile--*/
 
 @media all and (max-width: 1240px)
 
 {
-   body
+    
+body
     {
         width: 100%;
-     margin:0 0 0 1em;
+        margin-left: 18px;
     }
 
     
-/*--MQ-header-*/
-
-header
-{
-    width:100%;
-}
-
 
 /* --MQ-logo-nav-- */
-
 
 
 .titre-principal
@@ -772,6 +756,28 @@ header
 
 
 /*MQ-nav--*/
+
+/*--MQ-blueline--*/
+
+ul {
+    margin: 0;
+    padding-bottom: 7px;
+    position: relative;
+    border-bottom: 3px solid #ccc;
+    width:650px
+  }
+  
+  ul:before {
+    position: absolute;
+    background: #0065fc;
+    height: 2px;
+    content: '';
+    width: 170px;
+    bottom: -3px;
+    left: 0;
+  }
+
+
 nav ul
  {
     display: flex;
@@ -779,46 +785,31 @@ nav ul
 }
 
 
-nav li
+
+  nav li
+  {
+      margin: 0px 37px 12px 0px;
+  }
+  
+  
+  .li-gray
+  {
+      color: #808080;
+  }
+  
+
+.li-monté
 {
-    margin: 0px 37px 12px 0px;
-}
-
-
-.li-gray
-{
-    color: #808080;
-}
-
-
-.blueline
-{
-    border-image: linear-gradient(to right,blue 20%, lightgray 10%); /* gradient with required colors */
-    border-image-slice: 1;
-    border-width: 4px 0px 0px 0px;
-    width:700px;
-
-}
-
-
-
-
-
-.devant-logo
-{
-    margin: -60px 0px 0 -102px;
+    margin: -62px 0px 0 -102px;
     color: #0065FC;
     font-size: 18px;
 }
-
 
 
 nav a:hover
 {
     border-bottom: 2.5px solid #0065fc ; 
 }
-
-
 
 
 
@@ -849,8 +840,6 @@ nav a:hover
     margin-top: 10px;
     padding-bottom: 12px;
 }
-
-
 
 
 
@@ -1073,18 +1062,11 @@ border: 2px solid rgb(233, 230, 230);
 width: 60%;
 }
 
-    
-.fas
-{ 
- padding:;
-}
-         
-
 
 
 /*--cercle d'info-- */
 
-#cinfo
+.cercle-info
 {
     display: flex;
     width: 100%;
@@ -1128,7 +1110,7 @@ width: 60%;
 
 /*--MQ-Section-inversée--*/
 
-.mq-inversé
+.mq-section-inversé
 {
     display: flex;
     flex-direction: column-reverse;
@@ -1171,7 +1153,7 @@ width: 60%;
 }
 
 
-.img2
+.aside-img
 {
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
@@ -1210,6 +1192,7 @@ width: 60%;
     text-align-last: inherit;
     font-weight: bold;
 }
+
 .fa-chart-line
 {
 margin-left: 106px;
@@ -1227,39 +1210,39 @@ font-size:20px;
  /* --MQ-Hébergement à Marseille-- */
 
  
-#flex-container
+.flex-container
 {
     flex-direction: column;    
     background-color: #ffffff;
-    margin:0px 7px 0px -27px;
+    margin:0px 7px 0px -60px;
     padding: 35px 0px 0px 0px;
     width: 100%;
     height: auto;
    
 }
 
-#flex-container > div 
+.flex-container > div 
 {
     border:gray;
     background-color: #ffffff;
     height: 160px;
-    width: 41%;
-    margin: 49px 0px -30px 29px;
+    width: 44%;
+    margin: 49px 0px 0px 25px;
     padding: 9px 0px 0px 5px;
     box-shadow: 3px 3px #F2F2F2;
   }
  
-  #flex-container h1
+  .flex-container h1
   {
-      margin: 15px 0px 10px 32px;
+      margin: 15px 0px 10px 30px;
       font-size: 20px;
   }
 
   
 
-#flex-container p
+.flex-container p
 {
-  margin: 55px 0px 0px 32px;
+  margin: 55px 0px 0px 35px;
   font-weight: bold;
   font-size: 16px;
 }
@@ -1315,7 +1298,7 @@ article h2
    flex-direction: column;
    justify-content: space-around;
    width:100%;
-   margin: 65px 0px 0px -36px;
+   margin: 65px 0px 0px -30px;
    height: auto;
 
 }
@@ -1325,8 +1308,8 @@ article h2
     box-shadow: 3px 3px #F2F2F2;
     border: 1px solid #F2F2F2;
     height: 160px;
-    width: 42%;
-    margin: 30px 0px 0px 13px;
+    width: 44%;
+    margin: 33px 0px 0px 6px;
     padding: 0px 0 8px 0px;
     background-color:#ffff;
     border-radius: 1em;    
@@ -1340,7 +1323,7 @@ article h2
 }
 
 
-.vp
+.gride-img-port
 {
     width:100%;
     height:100px;
@@ -1349,7 +1332,7 @@ article h2
     border-top-right-radius:1em;
 }
 
-.fp
+.gride-img-pomègues
 {   width:100%;
     height:100px;
     object-fit: cover;
@@ -1358,7 +1341,7 @@ article h2
 
 }
 
-.if
+.gride-img-frioule
 {
     width:100%;
     height:100px;
@@ -1367,7 +1350,7 @@ article h2
     border-top-right-radius:1em;
 }
 
-  .ng
+  .gride-img-calanques
   {
     width:100%;
     height:100px;
@@ -1376,7 +1359,7 @@ article h2
     border-top-right-radius:1em;
   }
 
-.nd
+.gride-img-notre-dame
 {
     width:100%;
     height:100px;
@@ -1385,7 +1368,7 @@ article h2
     border-top-right-radius:1em;
 }
 
-.pl
+.gride-img-longchamp
 {
     width:100%;
     height:100px;
