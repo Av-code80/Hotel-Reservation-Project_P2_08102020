@@ -30,13 +30,6 @@ body
 }
 
 
-.blueline
-{
-    border-top: 2px solid #0065fc;
-    width: 150px;
-    margin: 10px 210px 0px 0px;
-}
-
 
 nav ul
 {
@@ -49,8 +42,17 @@ nav ul
 nav li
 {
     margin:right;
+
     
 }
+
+
+
+.li-gray
+  {
+      color: #808080;
+  }
+
 
 nav a
 {
@@ -60,6 +62,13 @@ nav a
     text-decoration:none;
     font-style: normal;  
 }
+
+   
+   a.active{
+border-top : 2px solid blue;   
+   }
+
+
 
 nav a:hover
 {
@@ -198,12 +207,12 @@ display:block;
 {   
     height: 37px; 
     position:relative;
-    width: 24%; 
+    width: 37px; 
     background: #DEEBFF;
     border-radius: 100%; 
-    margin: -1px 0px 0px -2px ;
-    padding: -1px 0px 15px 0px;
+    margin: -1px 0px 0px -3px ;
     color: #0065FC;
+    text-align: center;
     
 }
 .fas
@@ -279,7 +288,7 @@ position: relative;
     display: flex;
     justify-items: left;
     max-width: 40%;
-    margin: 3em 5em 0em 0em;
+    margin: 1em 5em 0em 0em;
     padding: 0em 1em 1em 0em;
 }
 
@@ -725,12 +734,9 @@ article h2
 
 
 
-
-
-
 /*--Start-Mqueries-mobile--*/
 
-@media all and (max-width: 1240px)
+@media all and (max-width: 800px)
 
 {
     
@@ -789,6 +795,7 @@ nav ul
   nav li
   {
       margin: 0px 37px 12px 0px;
+      
   }
   
   
@@ -800,10 +807,16 @@ nav ul
 
 .li-monté
 {
-    margin: -62px 0px 0 -102px;
+    margin: -66px 0px 0 -102px;
     color: #0065FC;
     font-size: 18px;
 }
+
+
+a.active{
+    border-top : none;   
+       }
+    
 
 
 nav a:hover
@@ -1012,15 +1025,18 @@ position: absolute;
 
 .cercle-filtre-mq
 {   
-    height: 41px; 
-    width: 27%; 
+    height: 40px; 
+    width: 39px; 
     background: #DEEBFF;
     border-radius: 100%; 
     margin: -2px 4px 0px -13px;
     position: absolute;
+    text-align: center;
+
 }
 .cercle-filtre-mq .fas
 { 
+    
   font-size: 13px;
   margin: 3px 0px 0px 11px;
 }
