@@ -35,7 +35,7 @@ nav ul
 {
   list-style-type: none;
   display: inline-flex; 
-  margin : 35px 170px 0 0px;
+  margin: 35px 2px 0px 0px;
 }
 
 
@@ -54,20 +54,23 @@ nav li
   }
 
 
+/*--navblue avec class="active"--*/
 nav a
 {
     font-size: 1em;
-    padding-right: 2em;
+    padding: 26px;
     color: #0065fc;
     text-decoration:none;
     font-style: normal;  
 }
 
    
-   a.active{
+a.active
+   {
 border-top : 2px solid blue;   
    }
 
+/*--navblue avec 2 balises--*/
 
 
 nav a:hover
@@ -807,7 +810,7 @@ nav ul
 
 .li-monté
 {
-    margin: -66px 0px 0 -102px;
+    margin: -54px 0px 0 -102px;
     color: #0065FC;
     font-size: 18px;
 }
