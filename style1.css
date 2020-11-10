@@ -169,7 +169,7 @@ display:block;
 }
 
 
-/* shadow-button*/
+/* shadow-hover-layer*/
 
 .boutton:hover 
 {
@@ -432,8 +432,7 @@ position: relative;
     align-items: flex-start;    
 }
 
-	/* Le groupe '.stars' positionne les étoiles
-		 les unes à côté des autres sans espacements. */
+	/* Le groupe stars */
 	.stars {
 		display: inline-flex;
 		justify-content: center;
@@ -442,12 +441,11 @@ position: relative;
 
 	}
 
-	/* A l'état :hover sur le parent '.rating',
-		 on force TOUTES les étoiles à passer en blue. */
+	/* hover sur le parent */
 	.stars:hover .fa-star {
 		color: #0065fc;
 	}
-	/* Et si la souris survole une étoile en particulier,
+	/* si la souris survole une étoile en particulier,
 		 on sélectionne toutes les étoiles qui sont APRÈS celle-ci
 		 grâce à l'opérateur '~' et on les force en GRIS */
 	.stars .fa-star:hover ~ .fa-star {
@@ -790,14 +788,14 @@ ul {
 nav ul
  {
     display: flex;
-    margin: 21px 0px 0 -20px;
+    margin: 21px 0px 0px -51px;
 }
 
 
 
   nav li
   {
-      margin: 0px 37px 12px 0px;
+      margin: 0px 22px 11px 2px;
       
   }
   
@@ -805,12 +803,13 @@ nav ul
   .li-gray
   {
       color: #808080;
+      margin: 0px 20px 3px -10px;
   }
   
 
 .li-monté
 {
-    margin: -54px 0px 0 -102px;
+    margin: -54px 0px 0 -112px;
     color: #0065FC;
     font-size: 18px;
 }
