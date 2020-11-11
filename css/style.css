@@ -488,7 +488,6 @@ position: relative;
 {
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    position:;
     width:36%;
     height:112px;
     object-fit:cover;
@@ -707,7 +706,6 @@ article h2
 #foot-container
 {    
     display: flex;
-    justify-content: ;
     border:1px;
     background-color: #F2F2F2;
     width:1110px;
@@ -809,9 +807,10 @@ nav ul
 
 .li-monté
 {
-    margin: -54px 0px 0 -112px;
+    margin: -80px 0px 0 -120px;
     color: #0065FC;
     font-size: 18px;
+    position:absolute;
 }
 
 
