@@ -31,7 +31,6 @@ body
 }
 
 
-
 nav ul
 {
   list-style-type: none;
@@ -46,7 +45,6 @@ nav li
     margin:right;
    
 }
-
 
 
 /*--navblue avec class="active"--*/
@@ -262,7 +260,6 @@ position: relative;
 }
 
 
-
 /* romantique*/
 
 .romantique
@@ -273,8 +270,6 @@ position: relative;
     border-radius: 5em;
     position: relative;
 }
-
-
 
  
 /* animeaux-autorisés*/
@@ -287,7 +282,6 @@ margin:auto;
 border-radius: 5em;
 position: relative;
 }
-
 
 
 
@@ -341,7 +335,6 @@ position: relative;
 
 
 
-
 /* --Hébergement à Marseille-- */
 
 
@@ -371,7 +364,7 @@ position: relative;
     border-radius: 15px;  
   }
  
-  .flex-container h1
+.flex-container h1
   {
       margin:11px 25px 0px -5px;
       font-size: 19px;
@@ -418,8 +411,7 @@ position: relative;
 
 
 
-/* Par défaut, une étoile est en gris,
-   avec un padding et un curseur en forme de main. */
+/* Par défaut, une étoile est en gris */
    .fa-star {
 	color: #d3d3d3;
 	cursor: pointer;
@@ -439,16 +431,15 @@ position: relative;
 }
 
 	/* Le groupe stars */
-	.stars {
+.stars {
 		display: inline-flex;
 		justify-content: center;
         font-size: 8.5px;
         margin: 0px 0px 50px -1px;
-
 	}
 
 	/* hover sur le parent */
-	.stars:hover .fa-star {
+.stars:hover .fa-star {
 		color: #0065fc;
 	}
 	/* si la souris survole une étoile en particulier,
@@ -533,13 +524,13 @@ position: relative;
     font-size:12px;
 }
 
-
 .populaire
 {
     font-weight: bold;
     font-size: 19px;
     margin: 37px 0px 2px 21px;
 }
+
 .fa-chart-line
 {
 margin: 0px 0px 13px 102px;
@@ -552,7 +543,6 @@ font-size: 18px;
     justify-content: center;
     font-size: 8.5px;
     margin: -3px 0px 0px 67px;
-
 }
 
 
@@ -575,7 +565,6 @@ article
   margin-right:0px;
 
 }
-
 
 
 
@@ -614,6 +603,7 @@ article h2
     grid-column:1/2;
     grid-row: 1/9; 
 }
+
 .gride-img-port
 {
     width: 240px;
@@ -626,16 +616,15 @@ article h2
 .gride-pomègues
 { 
     grid-column:2/3;
-    grid-row: 1/5 ;
-  
+    grid-row: 1/5 ;  
 }
+
 .gride-img-pomègues
 {   width: 240px;
     height: 9em;
     object-fit:cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
-
 }
 
 .gride-frioule
@@ -740,7 +729,6 @@ article h2
 
 
 
-
 /*--Start-Mqueries-mobile--*/
 
 @media all and (max-width: 800px)
@@ -780,7 +768,6 @@ ul {
   }
   
   
-
 nav ul
  {
     display: flex;
@@ -789,7 +776,7 @@ nav ul
 
 
 
-  nav li
+nav li
   {
       margin: 0px 22px 11px 2px;
       
@@ -820,7 +807,6 @@ nav a:hover
 
 
 
-
 /*--MQ-hébergement-centre*/
 
 .hcentre
@@ -846,8 +832,6 @@ nav a:hover
     margin-top: 10px;
     padding-bottom: 12px;
 }
-
-
 
 
 /* --MQ-formulaire--*/
@@ -946,8 +930,6 @@ nav a:hover
 }
 
 
-
-
   /*-MQ-filtres*/
 
 
@@ -1040,7 +1022,6 @@ position: absolute;
 }
 
 
-
 /*--familial*/
 
 .familial-h
@@ -1048,8 +1029,6 @@ position: absolute;
 border: 2px solid rgb(233, 230, 230);
 width: 36%;
 }
-
-
 
 
 /* MQ-romantique*/
@@ -1067,7 +1046,6 @@ width: 36%;
  }
      
    
-
 /* MQ-animeaux-autorisés*/
 
 .animeaux_autorisés-h
@@ -1075,7 +1053,6 @@ width: 36%;
 border: 2px solid rgb(233, 230, 230);
 width: 60%;
 }
-
 
 
 /*--cercle d'info-- */
@@ -1116,9 +1093,6 @@ width: 60%;
     color: gray;  
    
 }
-
-
-
 
 /*--MQ-Hidden-aside--*/
 
@@ -1177,7 +1151,6 @@ width: 60%;
 }
 
 
-
 .first-as
 {
     position:relative;
@@ -1217,7 +1190,6 @@ font-size:20px;
 {
     font-size: 10px;
     margin: 0px 0px 0px 97px;
-
 }
 
 
@@ -1246,14 +1218,13 @@ font-size:20px;
     box-shadow: 3px 3px #F2F2F2;
   }
  
-  .flex-container h1
+.flex-container h1
   {
       margin: 15px 0px 10px 30px;
       font-size: 20px;
   }
 
   
-
 .flex-container p
 {
   margin: 55px 0px 0px 35px;
