@@ -1,6 +1,8 @@
 
 
-head{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200, &display=swap');
+
+body {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -122,6 +124,14 @@ h1+p
   visibility: visible;
 } 
 
+.recontainer-a i
+{
+    padding: 12px 10px 0px 1px;
+    margin: 0 0 0 8px;
+    font-size: 12px;
+    text-align: center;
+}
+
 
 .left
 {
@@ -185,7 +195,7 @@ display:block;
 .container-aa
 {
     display:flex; 
-    width: 70%;
+    width: 75%;
     font-size: 14px;
     font-weight: bold;
     margin: 30px 0px 0px 0px;
@@ -224,14 +234,15 @@ display:block;
 
 .fas
 { 
-    padding: 10px 10px 0px 1px;
-    margin: 0 0 0 9px;
+    padding: 12px 10px 0px 1px;
+    margin: 0 0 0 8px;
     font-size: 12px;
+    text-align: center;
 }
 
 .container-aa h1
 { 
-    padding-left: 50px;
+    padding: 2px 0px 0px 40px;
     position:absolute;
     font-size: 13px;
 }
@@ -301,7 +312,7 @@ position: relative;
 
  height: 10px; 
  position:relative;
- width: 3.5%; 
+ width: 18px; 
  background:white;
  border:2px solid rgb(233, 230, 230);
  border-radius: 100%; 
@@ -315,15 +326,17 @@ position: relative;
     position:absolute;
     color: #0065fc;
     margin:3px 0px 0px 2.5px ;
-    padding: 0px 4px 0px 0px 
+    padding: 1px 4px 0px 0px;
+    text-align: center;
 }
 
 .pin
 {
     position: relative;
-    font-size: .9em;
+    font-size: 12px;
     color: gray;  
-    padding: 3px 40px 10px 0;
+    padding: 8px 40px 10px 0px;
+    width: 100%;
 }
 
 
@@ -528,13 +541,14 @@ position: relative;
 {
     font-weight: bold;
     font-size: 19px;
-    margin: 37px 0px 2px 21px;
+    margin: 31px 0px 2px 21px;
 }
 
 .fa-chart-line
 {
-margin: 0px 0px 13px 102px;
+margin: 14px 0px 0px 72px;
 font-size: 18px;
+padding: 6px 0px 8px 7px;
 }
 
 .stars-as 
@@ -737,8 +751,8 @@ article h2
     
 body
     {
-        width: 680px;
-        margin-left: 18px;
+        width: 800px;
+        margin-left: 25px;
     }
 
     
@@ -755,6 +769,11 @@ body
     width: 100%;
 }
 
+.logo
+{
+
+    margin-top: 1em;
+}
 
 /*MQ-nav--*/
 
@@ -771,10 +790,14 @@ ul {
 nav ul
  {
     display: flex;
-    margin: 21px 0px 0px -51px;
+    margin: 21px 0px 0px -45px;
+    width: 100%;
 }
 
-
+nav a 
+{
+    padding: 25px;
+}
 
 nav li
   {
@@ -786,7 +809,7 @@ nav li
   .li-middle
   {
       color: #808080;
-      margin: 0px 20px 3px -10px;
+      margin: 0px 20px 3px 25px;
   }
   
 
@@ -820,7 +843,7 @@ nav a:hover
 {
     font-weight: bold;
     margin-top: 30px;
-    width:39%;
+    width:35%;
     font-size: 20px;
 }
 
@@ -892,7 +915,7 @@ nav a:hover
 {
  display:block;
  border: 1px solid #F2F2F2;
- width: 30%; 
+ width: 32%; 
  height:44px;
  position:relative;
 }
@@ -912,7 +935,7 @@ nav a:hover
     border-radius: 13px;
     cursor: pointer;
     padding: 0px 0px 4px 4px;
-    margin-left: 220px;
+    margin-left: 257px;
     position: absolute;
 }
 
@@ -1087,9 +1110,9 @@ width: 60%;
 .pin
 {
     position: absolute;
-    font-size: 14.5;
-    width: 37%;
-    margin-left:37px;
+    font-size: 14.5px;
+    width: 35%;
+    margin-left:40px;
     color: gray;  
    
 }
@@ -1098,7 +1121,7 @@ width: 60%;
 
 /*--MQ-Section-inversée--*/
 
-.mq-section-inversé
+section 
 {
     display: flex;
     flex-direction: column-reverse;
@@ -1175,14 +1198,14 @@ width: 60%;
 
 .populaire
 {
-    margin: 0 0px 0 32px;
+    margin: 0 0px 0 35px;
     text-align-last: inherit;
     font-weight: bold;
 }
 
 .fa-chart-line
 {
-margin-left: 106px;
+margin-left: 115px;
 font-size:20px;
 }
 
