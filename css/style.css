@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 
@@ -361,16 +359,17 @@ position: relative;
 
 .flex-container p
 {
-  margin: 55px 470px 0px 0px;
+  margin: 38px 475px 40px 20px;
   font-weight: bold;
   font-size: 15px;
+
 }
 
 
 .img
 {
     width:98%;
-    height:90px;
+    height: 110px;
     object-fit: cover;
     margin: 1px 0px 0px 2px;
     border-top-left-radius: 10px;
@@ -382,8 +381,8 @@ position: relative;
 {
      position:absolute;
     text-align: left;
-    width:10.1em;
-    padding:91px 0px 0px 11px;
+    width:70%;
+    padding:119px 0px 0px 11px;
     line-height: 17px;
     font-size:13px;   
 }
@@ -416,15 +415,17 @@ position: relative;
 .rating {
 	display: flex;
 	flex-direction: column;
-    align-items: flex-start;    
+    align-items: flex-start; 
+    margin: 1px 0px -4px 0px;
+    text-align: center;   
 }
 
 	/* Le groupe stars */
 .stars {
 		display: inline-flex;
 		justify-content: center;
-        font-size: 8.5px;
-        margin: 0px 0px 50px -1px;
+        font-size: 8px;
+        margin-bottom: 5px;
 	}
 
 	/* hover sur le parent */
@@ -447,10 +448,9 @@ position: relative;
   display: flex;
   flex-direction: column;
   background-color: #F2F2F2;
-  width: 100%;
+  width: 85%;
   border-radius: 1em;
-  margin: 0px 0px 0px 24px;
-  padding: 0px 8px 0px 0px;
+  margin-left: 25px;
   position: relative;
 }
 
@@ -461,8 +461,8 @@ position: relative;
     background-color: white;
     border-radius: 1em;
     width: 65%;
-    margin: 0px -65px 33px 33px;
-    padding: 1px 100px 26px 2px;
+    margin: 0px -60px 33px 33px;
+    padding: 0px 85px 30px 2px;
     position:relative;
   
 }
@@ -471,27 +471,28 @@ position: relative;
 {
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    width:35%;
-    height:115px;
+    width:40%;
+    height:127px;
+    margin-top: 2px;
     object-fit:cover;
     position: absolute;
 }
 .text-aside
 {
     position:relative;
-    text-align: left;
-    width:185px;
-    padding:0px 15px 0px 107px;
-    margin: 7px 37px 0px -55px;
+    text-align: center;
+    width:100%;
+    padding-left: 4px;
+    margin: 7px 0px 2px 120px;
     font-size: 13px;
-    line-height: 13px;
+    line-height: 18px;
 }
 
 .first-as
 {
     position:relative;
     text-align: left;
-    width:125px;
+    width:45%;
     height:60px;
     padding:5px 0px 0px 68px;
     margin: 0px 0px 0px 0px;
@@ -514,22 +515,23 @@ position: relative;
 {
     font-weight: bold;
     font-size: 20px;
-    margin: 12px 0px 20px 15px;
+    margin: 45px 0px 23px 35px;
+    padding: 0px 0px 0px 0px;
 }
 
 .fa-chart-line
 {
 font-size: 25px;
-margin: 20px 0px 0px 211px;
-text-align: right;
+margin: -15px 0px 6px 140px;
+position: absolute;
 }
 
 .stars-as 
 {
     display: inline-flex;
     justify-content: center;
-    font-size: 8.5px;
-    margin: -3px 0px 0px 67px;
+    font-size: 8px;
+    margin: 15px 0px -15px 65px;
 }
 
 
@@ -567,11 +569,11 @@ article h2
 .wrapper
 {
    display:grid;
-   grid-template-columns: repeat(4, 345px);
+   grid-template-columns: repeat(4, 330px);
    grid-auto-rows: 30px;
    grid-gap:20px;   
    width: 100%;
-   margin:10px 0px 0px -30px;
+   margin:10px 0px 0px -40px;
 }
 
 .wrapper > div
@@ -688,8 +690,8 @@ article h2
     border:1px;
     background-color: #F2F2F2;
     width:100%;
-    margin: 60px 0px 0px -80px;
-    padding: 0px 10px 70px 40px;
+    margin-top: 50px;
+    padding-bottom: 70px;
 }
 
 #foot-container > div
@@ -753,7 +755,7 @@ ul {
 nav ul
  {
     display: flex;
-    margin: 21px 0px 0px -45px;
+    margin: 21px 0px 0px 0px;
     width: 100%;
 }
 
@@ -764,7 +766,7 @@ nav a
 
 nav li
   {
-      margin: 0px 22px 11px 2px;    
+      margin: 0px 142px 11px 0px;    
   }
   
   
@@ -804,17 +806,17 @@ nav a:hover
 {
     font-weight: bold;
     margin-top: 30px;
-    width:35%;
+    width: 100%;
     font-size: 20px;
 }
 
 .centre
 {
     color: #808080;
-    font-size:15px;
-    width: 37%;
+    font-size:20px;
+    width: 80%;
     margin-top: 10px;
-    padding-bottom: 12px;
+    padding-bottom: 15px;
 }
 
 
@@ -856,8 +858,8 @@ nav a:hover
 
 .left-h
 {
-    width: 6%;
-    height:43px;
+    width: 12%;
+    height:44px;
     background: #F2F2F2;
     padding: 3px 2px 0 2px ;
     border-top-left-radius: 15px;
@@ -865,10 +867,10 @@ nav a:hover
     position: relative;
 }
 
-.fas
+.recontainer-b .fas
 {
-    margin: 0px 0px 0px 16px;
-    font-size:16px;
+    margin: -3px 0px 0px 30px;
+    font-size: 20px;
 }
 
 
@@ -876,35 +878,35 @@ nav a:hover
 {
  display:block;
  border: 1px solid #F2F2F2;
- width: 32%; 
- height:44px;
+ width: 80%; 
+ height:45px;
  position:relative;
 }
 
-.middle-h h1
+.middle-h h2
 {
-    font-size: 14px;
-    margin: 15px 0 0 12px;
+    font-size: 20px;
+    margin: 11px 0 0 100px;
 }
 
 .btn
 {
     border:none;
-    width: 7%; 
-    height:45px;
+    width: 10%; 
+    height:47px;
     background-color: #0065fc;
     border-radius: 13px;
     cursor: pointer;
-    padding: 0px 0px 4px 4px;
-    margin-left: 257px;
+    padding: 0px 4px 6px 4px;
+    margin-left: 560px;
     position: absolute;
 }
 
-.fa-search
+.btn .fas
 {
     color:#ffffff;
-    margin: -3px 0px 0px 9px;
-    font-size: 14px;
+    margin: 0px -13px 4px 0px;
+    font-size: 20px;
 }
 
 .btn:hover 
@@ -933,7 +935,7 @@ nav a:hover
     flex-wrap: wrap;   
     background-color: #ffffff;
     margin:20px 0px 0px 0px;
-    width: 40%;   
+    width: 100%;   
     position:relative; 
     visibility: visible;
 }
@@ -941,8 +943,9 @@ nav a:hover
 .container-bb > div
 {
     border:2px solid lightgray;
-    margin: 40px 0px -27px 5px;
-    padding: 1px 5px 3px 10px;
+    width: 45%;
+    margin: 64px 10px -40px 5px;
+    padding: -2px 27px 0px 7px;
     height:34px;
     border-radius: 25px;
     position: relative;
@@ -958,17 +961,16 @@ nav a:hover
 
 .container-bb h1
 {
- font-size: 15px;
- margin:12px 0 0px 4px;
+ font-size: 20px;
+ margin-left: 5px;
  position: absolute;
 }
 
 
-h2
+.container-bb h2
 {
-    margin: 10px 0px 0px 35px;
-    padding: 0 0 .5em 0;
-    font-size: 14px;
+    margin: 7px 0px 0px 80px;
+    font-size: 20px;
     font-weight:bold;
     position:absolute;
     color: #000000;
@@ -990,10 +992,10 @@ position: absolute;
 .cercle-filtre-mq
 {   
     height: 40px; 
-    width: 39px; 
+    width: 40px; 
     background: #DEEBFF;
     border-radius: 100%; 
-    margin: -2px 4px 0px -13px;
+    margin: -2px 4px 0px -11px;
     position: absolute;
     text-align: center;
 
@@ -1002,7 +1004,7 @@ position: absolute;
 { 
     
   font-size: 13px;
-  margin: 3px 0px 0px 11px;
+  margin: 2px 3px 0px 11px;
 }
 
 
@@ -1042,19 +1044,19 @@ width: 60%;
 {
     display: flex;
     width: 100%;
-    margin: 45px 0px 20px 0px
+    margin: 70px 0px 50px 0px;
 }
 
 .cercle
  {   
 
  height: 12px; 
- width: 4%; 
+ width: 12px; 
  background:#ffffff;
  border: 2px solid rgb(233, 230, 230);
  border-radius: 100%; 
- margin: 8px 0px 9px 5px;
- padding: 0px 1px 10px 9px;        
+ margin: 7px 0px 9px 0px
+ padding: 0px 0px 10px 11px;        
  }
 
 .info
@@ -1062,18 +1064,23 @@ width: 60%;
     font-size: 9px;
     position:absolute;
     color: #0065fc;
-    margin:5px 5px 2px 0px ;
+    margin: 4px 2px 0px -1px;
 }
 
 .pin
 {
     position: absolute;
     font-size: 14.5px;
-    width: 35%;
-    margin-left:40px;
-    color: gray;  
-   
+    width: 85%;
+    margin: -18px 0px 0px 35px;
+    color: gray;     
 }
+
+.cercle-info h2
+{
+
+}
+
 
 /*--MQ-Hidden-aside--*/
 
@@ -1375,5 +1382,3 @@ article h2
 
 }
 /*--End-MQ--*/
-
-
