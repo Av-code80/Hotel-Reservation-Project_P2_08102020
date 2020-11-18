@@ -55,6 +55,7 @@ nav a:hover
     border-top: 2px solid #0065fc; 
 }
 
+
 .li-height
 {
     color: #0065fc;
@@ -67,7 +68,6 @@ nav a:hover
 {
     display: flex;
     flex-direction: column;
-    width:100%;
 }
 
 .hebergement
@@ -79,8 +79,8 @@ nav a:hover
 }
 .centre
 {
-    color:gray;
-    font-size:15px;
+    color: gray;
+    font-size: 15px;
     margin-top: 1em;
     padding-bottom: 2em;
 }
@@ -104,7 +104,6 @@ h1+p
 {
   display: inline-flex;
   flex-direction: row;
-  width: 65%;
   font-size: 12px;
   font-weight: bold;
   visibility: visible;
@@ -113,10 +112,8 @@ h1+p
 
 .left
 {
-    width: 4.5%;
-    height:38px;
     background: lightgray;
-    padding: 0 0 0 .7em ;
+    padding: 4px 10px 0px 15px;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
 }
@@ -124,29 +121,27 @@ h1+p
 
 .middle
 {
-display:block;
- border: .01px solid lightgray;
- position: relative;
- width: 27%; 
- height:36px;
+    display: block;
+    border: .01px solid lightgray;
+    position: relative;
+    padding: 0px 70px 9px 25px;
 }
 
 .middle h2
 {
-    margin: 10px 0 0 12px;
-    font-size:13px;
+    margin: 13px 7px 2px 2px;
+    font-size: 15px;
 }
 
 
 .boutton
 {
-    border:0px;
-    width: 13%; 
-    height:38px;
+    border: 0px;
+    padding: 10px 12px 10px 10px;
     background-color: #0065fc;
     color: #ffffff;
     border-top-right-radius: 1em;
-    border-bottom-right-radius:1em;
+    border-bottom-right-radius: 1em;
 }
 
 
@@ -208,9 +203,9 @@ display:block;
 
 .fas
 { 
-    padding: 12px 10px 0px 1px;
-    margin: 0 0 0 8px;
-    font-size: 12px;
+    padding: 12px 9px 0px 1px;
+    margin-left: 5px;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -275,7 +270,7 @@ position: relative;
 {
     display: flex;
     justify-items: left;
-    margin: 1em 0em 0em 0em;
+    margin-top: 1em;
     padding: 0em 5em 1em 0em
 }
 
@@ -288,7 +283,7 @@ position: relative;
  background: #fff;
  border:2px solid rgb(233, 230, 230);
  border-radius: 100%; 
- margin: 27px 8px 10px 0px; 
+ margin: 23px 8px 10px 0px; 
  padding: 0px 0px 10px 5px;        
  }
 
@@ -297,8 +292,8 @@ position: relative;
     font-size: 9px;
     position:absolute;
     color: #0065fc;
-    margin: 3px 0px 0px 3px;
-    padding: 1px 0px 0px 0px;
+    margin: 3px 0px 0px 4px;
+    padding-top: 1px;
     text-align: center;
 }
 
@@ -329,7 +324,6 @@ position: relative;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;   
-    margin: 0px 0px 0px 0px;
     padding: 4px 12px 0px 0px;
     background-color: #F2F2F2;
     border-radius: 1em;
@@ -342,6 +336,7 @@ position: relative;
     margin: 90px 30px -60px 40px;
     padding: 0px 185px 170px 0px;
     position: relative;
+    box-shadow: 0px 0px 10px 0px #808080;
     border-radius: 15px;  
   }
  
@@ -364,7 +359,7 @@ position: relative;
 
 .img
 {
-    width:98%;
+    width: 98%;
     height: 110px;
     object-fit: cover;
     margin: 1px 0px 0px 2px;
@@ -377,10 +372,9 @@ position: relative;
 {
      position:absolute;
     text-align: left;
-    width:80%;
-    padding:119px 0px 0px 11px;
+    padding: 119px 0px 0px 11px;
     line-height: 17px;
-    font-size:13px;   
+    font-size: 13px;   
 }
 
 .tfirst
@@ -396,7 +390,8 @@ position: relative;
 
 
 /* Par défaut, une étoile est en gris */
-   .fa-star {
+   .fa-star 
+   {
 	color: #d3d3d3;
 	cursor: pointer;
     padding: 0.0625rem;
@@ -408,11 +403,11 @@ position: relative;
 }
 
 /* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
-.rating {
+.rating 
+{
 	display: flex;
 	flex-direction: column;
     align-items: flex-start; 
-    margin: 0px 0px 0px 0px;
     text-align: center;   
 }
 
@@ -441,76 +436,72 @@ position: relative;
 
 #flex-container-as
 {
-  display: flex;
-  flex-direction: column;
-  background-color: #F2F2F2;
-  border-radius: 1em;
-  padding: 8px 0px 0px 0px;
-  margin: 0px 83px 2px 0px;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 1em;
+    padding-top: 7px;
+    margin-right: 83px;
+    position: relative;
 }
 
 
 #flex-container-as > div
 {
     border: gray;
-    background-color:#fff;
+    background-color: #fff;
     border-radius: 1em;
     margin: 2px 32px 30px 30px;
     padding: 0px 0px 20px 2px;
-    position:relative;
-  
+    box-shadow: 0px 0px 10px 0px #808080;
+    position: relative;
 }
 
 .aside-img
 {
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    width:30%;
-    height:117px;
+    width: 35%;
+    height: 117px;
     margin-top: 2px;
     object-fit:cover;
     position: absolute;
 }
 .text-aside
 {
-    position:relative;
+    position: relative;
     text-align: center;
-    padding-left: 4px;
-    margin: 7px 40px 2px 70px;
+    margin: -17px 35px 10px 70px;
+    padding-bottom: 9px;
     font-size: 13px;
     line-height: 18px;
 }
 
 .first-as
 {
-    position:relative;
+    position: relative;
     text-align: left;
-    width: 75%;
-    height:60px;
-    padding:5px 0px 0px 68px;
-    margin: 6px 7px 0px 0px;
+    padding-left: 70px;
+    margin: 35px 7px 0px 0px;
     font-weight: bold;
 }
 
 .second-as
 {
-    position:relative;
+    position: relative;
     text-align: left;
-    width:105px;
-    height:48px;
-    padding:0px 0px 0px 68px;
-    margin: -28px 0px 0px 0px;
-    color:gray;
-    font-size:12px;
+    width: 101px;
+    padding: 0px 15px 0px 60px;
+    margin: 0px 0px 4px 10px;
+    color: gray;
+    font-size: 10px;
 }
 
 .populaire
 {
     font-weight: bold;
     font-size: 20px;
-    margin: 42px 0px 20px 25px;
-    padding: 0px 0px 0px 0px;
+    margin: 42px 0px 20px 30px;
 }
 
 .fa-chart-line
@@ -525,14 +516,14 @@ position: absolute;
     display: inline-flex;
     justify-content: center;
     font-size: 8px;
-    margin: 7px 0px -10px 65px;
+    margin: 20px 0px -23px 69px;
 }
 
 
 section
 {
-    display:flex;
-    margin:0px;
+    display: flex;
+    margin: 0px;
 }
    
 article, aside
@@ -544,7 +535,7 @@ article, aside
 
 article
 {
-  margin-right:0px;
+  margin-right: 0px;
 
 }
 
@@ -565,15 +556,14 @@ article h2
    display:grid;
    grid-template-columns: repeat(4, 280px);
    grid-auto-rows: 30px;
-   grid-gap:20px;   
-   width: 100%;
-   margin:10px 0px 0px -35px;
+   grid-gap: 20px;   
+   margin: 10px 0px 0px -35px;
 }
 
 .wrapper > div
 {
-    box-shadow: 5px 5px #F2F2F2;
-    border:2px;
+    box-shadow: 2px 2px 8px 2px #F2F2F2;
+    border: 2px;
     background-color:#ffff;
     border-radius: 1em;
     object-fit: cover;
@@ -591,7 +581,7 @@ article h2
     height: 340px;
     object-fit: cover;
     border-top-left-radius: 1em;
-    border-top-right-radius:1em;
+    border-top-right-radius: 1em;
 }
 
 .gride-pomegues
@@ -681,11 +671,10 @@ article h2
 #foot-container
 {    
     display: flex;
-    border:1px;
+    border: 1px;
     background-color: #F2F2F2;
-    width:100%;
-    margin-top: 50px;
-    padding-bottom: 70px;
+    margin: 30px 10px 0 -50px;
+    padding-bottom: 30px;
 }
 
 #foot-container > div
@@ -725,7 +714,6 @@ article h2
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly ; 
-    width: 100%;
 }
 
 .logo
@@ -749,8 +737,7 @@ ul {
 nav ul
  {
     display: flex;
-    margin: 21px 0px 0px 0px;
-    width: 100%;
+    margin-top: 21px;
 }
 
 nav a 
@@ -760,7 +747,7 @@ nav a
 
 nav li
   {
-      margin: 0px 142px 11px 0px;    
+      margin: 0px 75px 11px -3px;    
   }
   
   
@@ -769,6 +756,7 @@ nav li
       color: #808080;
       margin: 0px 20px 3px 25px;
   }
+
   
 .li-height
 {
@@ -793,22 +781,19 @@ nav a:hover
 {
     display: flex;
     flex-direction: column;  
-    width: 100%;    
 }
 
 .hebergement
 {
     font-weight: bold;
-    margin-top: 30px;
-    width: 100%;
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 22px;
 }
 
 .centre
 {
     color: #808080;
-    font-size:20px;
-    width: 80%;
+    font-size: 19px;
     margin-top: 10px;
     padding-bottom: 15px;
 }
@@ -824,9 +809,8 @@ nav a:hover
 
 .boutton
 {
-    border:0px;
-    width: 20%; 
-    height:33px;
+    border: 0px;
+    height: 33px;
     background-color: #0065fc;
     color: #ffffff;
     border-top-right-radius: 1em;
@@ -843,7 +827,6 @@ nav a:hover
   display: flex;
   flex-direction: row;
   justify-items: left;
-  width: 100%;
   font-weight: bold;
   visibility: visible;
   position: relative;
@@ -852,10 +835,8 @@ nav a:hover
 
 .left-h
 {
-    width: 12%;
-    height:44px;
     background: #F2F2F2;
-    padding: 3px 2px 0 2px ;
+    padding: 5px 5px 0px 0px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     position: relative;
@@ -863,50 +844,49 @@ nav a:hover
 
 .recontainer-b .fas
 {
-    margin: -3px 0px 0px 30px;
-    font-size: 20px;
+    padding: 10px 15px 0px 15px;
+    font-size: 19px;
+    text-align: center;
 }
 
 
 .middle-h
 {
- display:block;
+ display: block;
  border: 1px solid #F2F2F2;
- width: 80%; 
- height:45px;
  position:relative;
 }
 
 .middle-h h2
 {
-    font-size: 20px;
-    margin: 11px 0 0 100px;
+    font-size: 19px;
+    margin: auto;
+    padding: 15px 210px 12px 55px;
+    text-align: center;
 }
 
 .btn
 {
     border:none;
-    width: 10%; 
-    height:47px;
     background-color: #0065fc;
     border-radius: 13px;
     cursor: pointer;
-    padding: 0px 4px 6px 4px;
-    margin-left: 560px;
+    margin-left: 412px;
     position: absolute;
 }
 
 .btn .fas
 {
     color:#ffffff;
-    margin: 0px -13px 4px 0px;
-    font-size: 20px;
+    padding: 17px 15px 13px 10px;
+    font-size: 19px;
+    text-align: center;
 }
 
 .btn:hover 
 {
-    background-color:#808080;
-    padding: 0 2em 1em 0;
+    background-color: #87cefa;
+    padding: 0px 10px 1px 0px;
 }
 
 
@@ -926,25 +906,15 @@ nav a:hover
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
     background-color: #ffffff;
-    margin:20px 0px 0px 0px;
-    width: 100%;   
-    position:relative; 
+    margin-top: 30px;
+    color: #0065FC;
+    position: relative;
     visibility: visible;
 }
  
-.container-bb > div
-{
-    border:2px solid lightgray;
-    width: 45%;
-    margin: 64px 10px -40px 5px;
-    padding: -2px 27px 0px 7px;
-    height:34px;
-    border-radius: 25px;
-    position: relative;
-    color: #0065FC;
-}
+
 .container-bb > div:hover
 {
     cursor: pointer;
@@ -955,50 +925,55 @@ nav a:hover
 
 .container-bb h1
 {
- font-size: 20px;
- margin-left: 5px;
- position: absolute;
-}
-
-
-.container-bb h2
-{
-    margin: 7px 0px 0px 80px;
-    font-size: 20px;
-    font-weight:bold;
-    position:absolute;
-    color: #000000;
+font-size: 20px;
+margin: 1px;
+position: absolute;
+position: absolute;
+color: #000000;
 }
 
 
 .economique-h
 {
-border: 2px solid #d3d3d3;
-height: 34px;
-width: 46%;
-padding:0px 0px 3px 10px;
-margin:28px 16px -11px 0px;
-border-radius: 25px;
-position: absolute;
+    border: 2px solid rgb(233, 230, 230);
+    margin: 38px 15px 0px 4px;
+    padding: 0px 60px 0px 25px;
+    border-radius: 25px;
+    position: relative;
+    color: #0065FC;
 }
+
+
+.container-bb h2
+{
+    margin: 0px -15px 4px -22px;
+    padding: 8px 50px 0px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    color: #000000;
+}
+
 
 
 .cercle-filtre-mq
 {   
-    height: 40px; 
-    width: 40px; 
     background: #DEEBFF;
-    border-radius: 100%; 
-    margin: -2px 4px 0px -11px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin: -38px 0px 0px -30px;
     position: absolute;
     text-align: center;
 
 }
+
 .cercle-filtre-mq .fas
 { 
-    
-  font-size: 13px;
-  margin: 2px 3px 0px 11px;
+    font-size: 13px;
+    margin: 2px 2px 2px 10px;
+    position: relative;
+    text-align: center;
 }
 
 
@@ -1006,8 +981,11 @@ position: absolute;
 
 .familial-h
 {
-border: 2px solid rgb(233, 230, 230);
-width: 36%;
+    border: 2px solid rgb(233, 230, 230);
+    margin: 37px 2px 0px 0px;
+    padding: 1px 24px 0px 28px;
+    border-radius: 28px;
+    position: relative;
 }
 
 
@@ -1016,7 +994,10 @@ width: 36%;
 .romantique-h
 {
     border: 2px solid rgb(233, 230, 230);
-    width: 44%;
+    margin: 38px 80px 0px 2px;
+    padding: 0px 52px 0px 26px;
+    border-radius: 28px;
+    position: relative;
 }
 
 
@@ -1027,8 +1008,11 @@ width: 36%;
 
 .animeaux_autorises-h
 {
-border: 2px solid rgb(233, 230, 230);
-width: 60%;
+    border: 2px solid rgb(233, 230, 230);
+    margin: 38px 0px 0px 2px;
+    padding: 0px 40px 0px 28px;
+    border-radius: 28px;
+    position: relative;
 }
 
 
@@ -1037,42 +1021,39 @@ width: 60%;
 .cercle-info
 {
     display: flex;
-    width: 100%;
-    margin: 70px 0px 50px 0px;
+    margin: 30px 0px 60px -15px;
 }
 
 .cercle
  {   
 
- height: 12px; 
- width: 12px; 
- background:#ffffff;
- border: 2px solid rgb(233, 230, 230);
- border-radius: 100%; 
- margin: 7px 0px 9px 0px;
- padding: 0px 0px 10px 11px;        
+    background: #ffffff;
+    border: 2px solid rgb(233, 230, 230);
+    border-radius: 100%;
+    margin: 20px 0px 0px 15px;
+    padding: 0px 0px 12px 6px;
  }
 
 .info
 {
-    font-size: 9px;
-    position:absolute;
+    font-size: 11px;
+    position: absolute;
     color: #0065fc;
-    margin: 4px 2px 0px -1px;
+    margin: 3px 0px 0px 3px;
 }
 
 .pin
 {
     position: absolute;
-    font-size: 14.5px;
-    width: 85%;
-    margin: -18px 0px 0px 35px;
-    color: gray;     
+    margin-left: 26px;
+    color: gray;    
 }
 
 .cercle-info h2
 {
-
+    padding: 4px 70px 0px 25px;
+    text-align: left;
+    font-size: 19px;
 }
 
 
@@ -1091,160 +1072,164 @@ section
 
 #flex-container-as
 {
-  flex-direction: column;
-  justify-content: left;
-  background-color: #F2F2F2;
-  width: 100%;
-  height: 510px;
-  margin-left: -60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    margin: 0px -10px 0px -40px;
+    position: relative;
 }
 
 
 #flex-container-as > div
 {
     border: gray;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 1em;
-    height: 125px;
-    width: 33%;
-    margin: 1em 15.5em 0 2em;
-    box-shadow: 3px 3px #F2F2F2;
+    margin: 0px 20px 25px 10px;
+    padding-bottom: 16px;
+    box-shadow: 0px 0px 10px 0px #808080;
+    position: relative;
+  
+}
+
+.aside-img
+{
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    width: 40%;
+    height: 160px;
+    margin-top: 2px;
+    object-fit: cover;
+    position: absolute;
 }
 
 .text-aside
 {
-    width: 185px;
-    padding: 15px 0px 0px 90px;
-    text-align: left;
-    position: relative ;
-    font-size: 14px;
-    line-height: 17px;
+    position: relative;
+    padding: 0px;
+    margin: 15px 0px 0px 195px;
+    font-size: 20px;
+    line-height: 21px;
 }
-
-
-.aside-img
-{
-    border-top-left-radius: .5em;
-    border-bottom-left-radius: .5em;
-    width:115px;
-    height:122px;
-    object-fit:cover;
-}
-
 
 .first-as
 {
-    position:relative;
-    text-align: left;
-    width:125px;
-    height:60px;
-    padding:0em 0em 0em 7em;
-    margin: 0 2px 0 0;
+    position: relative;
+    padding: 0px 0px 8px 67px;
+    font-weight: bold;
 }
 
 .second-as
 {
-    position:relative;
-    text-align: left;
-    width:112px;
-    height:48px;
-    padding:0px 0px 0px 85px;
-    margin: -26px 0px 0px 13px;
-    color: #808080; 
-    font-size:13px;
+    position: relative;
+    padding: 2px 0px 6px 58px;
+    color: gray;
+    font-size: 15px;
+    line-height: 19px;
 }
 
 .populaire
 {
-    margin: 0 0px 0 35px;
-    text-align-last: inherit;
     font-weight: bold;
+    font-size: 22px;
+    margin: 36px 0px 18px 12px;
 }
 
 .fa-chart-line
 {
-margin-left: 115px;
-font-size:20px;
+    font-size: 25px;
+    margin: -14px 0px 0px 250px;
+    position: absolute;
 }
 
 .stars-as
 {
+    display: inline-flex;
+    justify-content: center;
     font-size: 10px;
-    margin: 0px 0px 0px 97px;
+    margin: 0px 0 2px 65px;
 }
 
 
  /*--MQ-Hebergement à Marseille--*/
 
  
-.flex-container
-{
-    flex-direction: column;    
-    background-color: #ffffff;
-    margin:0px 7px 0px -60px;
-    padding: 35px 0px 0px 0px;
-    width: 100%;
-    height: auto;
-   
-}
-
-.flex-container > div 
-{
-    border:gray;
-    background-color: #ffffff;
-    height: 160px;
-    width: 44%;
-    margin: 49px 0px 0px 25px;
-    padding: 9px 0px 0px 5px;
-    box-shadow: 3px 3px #F2F2F2;
-  }
+ .flex-container
+ {
+    display: flex;
+    flex-direction: column;
+    padding-right: 8px;
+    margin-top: 15px;
+    background-color: #fff;
+ }
  
-.flex-container h1
-  {
-      margin: 15px 0px 10px 30px;
-      font-size: 20px;
-  }
-
+ .flex-container > div 
+ {
+    border: gray;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #808080;
+    margin: 100px 0px -62px 0px;
+    padding-bottom: 245px;
+    position: relative;
+    border-radius: 15px; 
+   }
   
-.flex-container p
-{
-  margin: 55px 0px 0px 35px;
-  font-weight: bold;
-  font-size: 16px;
-}
+ .flex-container h2
+   {
+    margin: 50px 3px;
+    font-size: 22px;
+    position: absolute;
+    font-weight: bold;
+   }
 
-.img
-{
-    width: 97%;
-    height: 100px;
+ .img
+ {
+    width: 99%;
+    height: 165px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-
-.text-boxe 
-{
-    position:absolute;
+    position: absolute;
+ }
+ 
+ .text-boxe 
+ {
+    position: absolute;
     text-align: left;
-    width: 60%;
-    padding:106px 0px 0px 11px;
-    line-height: 17px;
-    font-size:13px;   
+    padding: 180px 0px 0px 12px;
+    line-height: 22px;
+    font-size: 18px; 
+ }
+ 
+ .tfirst
+ {
+     font-weight: bold;
+ }
+ 
+ .tsecond
+ {
+     color:#808080;
+     font-size: 12px;
+ }
+ 
+ 
+     /* Le groupe stars */
+ .stars 
+ {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-bottom: 5px;
 }
+ 
+     .flex-container p
+ {
+    margin: 95px 2px;
+    font-weight: bold;
+    font-size: 18px;
+ }
+   
 
-
-.tsecond
-{
-    font-size: 13px;
-    margin-top: -1px;
-}
-
-.stars
-{
-    font-size: 9px;
-    margin: 2px 0px 50px -1px;
-}
 
 
 /*--MQ-grid--*/
@@ -1252,55 +1237,50 @@ font-size:20px;
 article h2
 
 {
-    font-size: 20px;
+    font-size: 22px;
     padding: 0px 0px 0px 0px;
-    margin: -12px 0px 0 -24px;
+    margin: 0px 0px 0 -28px;
     font-weight: bold;
 }
 
 .wrapper
 {
-   display:flex;
-   flex-direction: column;
-   justify-content: space-around;
-   width:100%;
-   margin: 65px 0px 0px -30px;
-   height: auto;
-
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
 }
 
 .wrapper > div
 {
-    box-shadow: 3px 3px #F2F2F2;
-    border: 1px solid #F2F2F2;
-    height: 160px;
-    width: 44%;
-    margin: 33px 0px 0px 6px;
-    padding: 0px 0 8px 0px;
-    background-color:#ffff;
-    border-radius: 1em;    
+    border: gray;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px 2px #F2F2F2;
+    margin:45px -22px -20px 0px;
+    padding-bottom: 20px;
+    position: relative;
+    border-radius: 15px; 
 }
 
 .wrapper p
 {
     font-weight: bold;
-    font-size: 14px;
-    margin: 20px 0px 0px 20px;
+    font-size: 18px;
+    margin: 10px 0px 0px 18px;
 }
 
 
 .gride-img-port
 {
-    width:100%;
-    height:100px;
+    width: 100%;
+    height: 190px;
     object-fit: cover;
     border-top-left-radius: 1em;
-    border-top-right-radius:1em;
+    border-top-right-radius: 1em;
 }
 
 .gride-img-pomegues
 {   width:100%;
-    height:100px;
+    height:190px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1310,7 +1290,7 @@ article h2
 .gride-img-frioule
 {
     width:100%;
-    height:100px;
+    height:190px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1319,7 +1299,7 @@ article h2
   .gride-img-calanques
   {
     width:100%;
-    height:100px;
+    height:190px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1328,7 +1308,7 @@ article h2
 .gride-img-notre-dame
 {
     width:100%;
-    height:100px;
+    height:190px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1337,7 +1317,7 @@ article h2
 .gride-img-longchamp
 {
     width:100%;
-    height:100px;
+    height:190px;
     object-fit: cover;
     border-top-left-radius: 1em;
     border-top-right-radius:1em;
@@ -1351,18 +1331,16 @@ article h2
 {    
     display: flex;
     flex-direction: column;
+    border: 1px;
     background-color: #F2F2F2;
-    width:100%;
-    height: 470px;
-    margin: 60px 0px 0px 0px ;
-    padding: 2px 0px 0px 0px ;
+    margin: 60px -15px 0px -30px;
+    padding-bottom: 30px;
 }
 
 #foot-container > div
 {
     text-align: justify;
-    margin: 0em 0em 0 2em  ;
-    padding:2em 0 0 0 ;
+    margin-left: 2em  ;
     color: #808080; 
     text-align: justify;
     line-height: 1.6em;    
