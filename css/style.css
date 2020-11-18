@@ -172,7 +172,6 @@ display:block;
 .container-aa
 {
     display:flex; 
-    width: 70%;
     font-size: 15px;
     font-weight: bold;
     margin: 30px 0px 0px 0px;
@@ -189,9 +188,8 @@ display:block;
 
 .container-aa h1
 {
-    width: 0%;
-    padding: 10px 48px 10px 2px;
-    font-style:normal;  
+    padding: 16px 22px 10px 3px;
+    font-style: normal;  
 }
 
 
@@ -218,8 +216,8 @@ display:block;
 
 .container-aa h2
 { 
-    padding: 2px 0px 0px 40px;
-    position:absolute;
+    padding: 0px 0px 0px 50px;
+    position: absolute;
     font-size: 13px;
 }
 
@@ -227,9 +225,8 @@ display:block;
 .economique
 {
 border: 2px solid rgb(233, 230, 230);
-height: 35px;
-width: 20%;
-margin:auto;
+margin: 17px 45px 12px 0px;
+padding: 0px 120px 0px 0px;
 border-radius: 5em;
 position: relative;
 }
@@ -240,8 +237,8 @@ position: relative;
 .familial
 {
 border: 2px solid rgb(233, 230, 230);
-width: 15%;
-margin:auto;
+margin: 17px 45px 12px 10px;
+padding: 0px 90px 0px 0px;
 border-radius: 5em;
 position: relative;
 }
@@ -252,8 +249,8 @@ position: relative;
 .romantique
 {
     border: 2px solid rgb(233, 230, 230);
-    width: 19%;
-    margin:auto;
+    margin: 17px 45px 12px 10px;
+    padding: 0px 120px 0px 0px;
     border-radius: 5em;
     position: relative;
 }
@@ -264,8 +261,8 @@ position: relative;
 .animeaux_autorises
 {
 border: 2px solid rgb(233, 230, 230);
-width: 24%;
-margin:auto;
+margin: 17px 25px 12px 10px;
+padding: 0px 160px 0px 0px;
 border-radius: 5em;
 position: relative;
 }
@@ -278,9 +275,8 @@ position: relative;
 {
     display: flex;
     justify-items: left;
-    max-width: 40%;
-    margin: 1em 5em 0em 0em;
-    padding: 0em 1em 1em 0em;
+    margin: 1em 0em 0em 0em;
+    padding: 0em 5em 1em 0em
 }
 
 .cercle
@@ -292,7 +288,7 @@ position: relative;
  background: #fff;
  border:2px solid rgb(233, 230, 230);
  border-radius: 100%; 
- margin: 14px 8px 10px 0px;
+ margin: 27px 8px 10px 0px; 
  padding: 0px 0px 10px 5px;        
  }
 
@@ -301,7 +297,7 @@ position: relative;
     font-size: 9px;
     position:absolute;
     color: #0065fc;
-    margin: 2px 0px 0px 3px;
+    margin: 3px 0px 0px 3px;
     padding: 1px 0px 0px 0px;
     text-align: center;
 }
@@ -311,8 +307,10 @@ position: relative;
     position: relative;
     font-size: 15px;
     color: gray;  
-    padding: 8px 40px 10px 0px;
-    width: 100%;
+    margin: 3px 0px 0px 3px;
+    padding: 1px 0px 0px 0px;
+    text-align: center;
+
 }
 
 
@@ -331,10 +329,9 @@ position: relative;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;   
+    margin: 0px 0px 0px 0px;
+    padding: 4px 12px 0px 0px;
     background-color: #F2F2F2;
-    margin:0px 0px 0px -30px;
-    padding: 35px 31px 0px 30px;
-    width: 100%;
     border-radius: 1em;
 }
 
@@ -342,24 +339,23 @@ position: relative;
 {
     border: gray;
     background-color:#ffffff;
-    width: 28%;
-    margin: 55px 25px 0px 20px;
-    padding: 0px 0px 170px 0px;
-    position:relative;
+    margin: 90px 30px -60px 40px;
+    padding: 0px 185px 170px 0px;
+    position: relative;
     border-radius: 15px;  
   }
  
 .flex-container h2
   {
-      margin: 1px 21px;
-      font-size: 21px;
+      margin: 40px 42px;
+      font-size: 20px;
       position:absolute;
       font-weight: bold;
   }
 
 .flex-container p
 {
-  margin: 38px 475px 40px 20px;
+  margin: 90px 0px 40px 45px;
   font-weight: bold;
   font-size: 15px;
 
@@ -381,7 +377,7 @@ position: relative;
 {
      position:absolute;
     text-align: left;
-    width:70%;
+    width:80%;
     padding:119px 0px 0px 11px;
     line-height: 17px;
     font-size:13px;   
@@ -416,7 +412,7 @@ position: relative;
 	display: flex;
 	flex-direction: column;
     align-items: flex-start; 
-    margin: 1px 0px -4px 0px;
+    margin: 0px 0px 0px 0px;
     text-align: center;   
 }
 
@@ -448,9 +444,9 @@ position: relative;
   display: flex;
   flex-direction: column;
   background-color: #F2F2F2;
-  width: 85%;
   border-radius: 1em;
-  margin-left: 25px;
+  padding: 8px 0px 0px 0px;
+  margin: 0px 83px 2px 0px;
   position: relative;
 }
 
@@ -458,11 +454,10 @@ position: relative;
 #flex-container-as > div
 {
     border: gray;
-    background-color: white;
+    background-color:#fff;
     border-radius: 1em;
-    width: 65%;
-    margin: 0px -60px 33px 33px;
-    padding: 0px 85px 30px 2px;
+    margin: 2px 32px 30px 30px;
+    padding: 0px 0px 20px 2px;
     position:relative;
   
 }
@@ -471,8 +466,8 @@ position: relative;
 {
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    width:40%;
-    height:127px;
+    width:30%;
+    height:117px;
     margin-top: 2px;
     object-fit:cover;
     position: absolute;
@@ -481,9 +476,8 @@ position: relative;
 {
     position:relative;
     text-align: center;
-    width:100%;
     padding-left: 4px;
-    margin: 7px 0px 2px 120px;
+    margin: 7px 40px 2px 70px;
     font-size: 13px;
     line-height: 18px;
 }
@@ -492,10 +486,10 @@ position: relative;
 {
     position:relative;
     text-align: left;
-    width:45%;
+    width: 75%;
     height:60px;
     padding:5px 0px 0px 68px;
-    margin: 0px 0px 0px 0px;
+    margin: 6px 7px 0px 0px;
     font-weight: bold;
 }
 
@@ -515,14 +509,14 @@ position: relative;
 {
     font-weight: bold;
     font-size: 20px;
-    margin: 45px 0px 23px 35px;
+    margin: 42px 0px 20px 25px;
     padding: 0px 0px 0px 0px;
 }
 
 .fa-chart-line
 {
 font-size: 25px;
-margin: -15px 0px 6px 140px;
+margin: -15px 0px 6px 90px;
 position: absolute;
 }
 
@@ -531,7 +525,7 @@ position: absolute;
     display: inline-flex;
     justify-content: center;
     font-size: 8px;
-    margin: 15px 0px -15px 65px;
+    margin: 7px 0px -10px 65px;
 }
 
 
@@ -569,11 +563,11 @@ article h2
 .wrapper
 {
    display:grid;
-   grid-template-columns: repeat(4, 330px);
+   grid-template-columns: repeat(4, 280px);
    grid-auto-rows: 30px;
    grid-gap:20px;   
    width: 100%;
-   margin:10px 0px 0px -40px;
+   margin:10px 0px 0px -35px;
 }
 
 .wrapper > div
@@ -1055,7 +1049,7 @@ width: 60%;
  background:#ffffff;
  border: 2px solid rgb(233, 230, 230);
  border-radius: 100%; 
- margin: 7px 0px 9px 0px
+ margin: 7px 0px 9px 0px;
  padding: 0px 0px 10px 11px;        
  }
 
