@@ -183,8 +183,9 @@ h1+p
 
 .container-aa h1
 {
-    padding: 16px 22px 10px 3px;
-    font-style: normal;  
+    padding: 8px 50px 10px 3px;
+    font-style: normal;
+    font-size: 20px; 
 }
 
 
@@ -219,11 +220,11 @@ h1+p
 
 .economique
 {
-border: 2px solid rgb(233, 230, 230);
-margin: 17px 45px 12px 0px;
-padding: 0px 120px 0px 0px;
-border-radius: 5em;
-position: relative;
+    border: 2px solid rgb(233, 230, 230);
+    margin: 17px 45px 12px 0px;
+    padding: 0px 140px 0px 0px;
+    border-radius: 5em;
+    position: relative;
 }
 
 
@@ -233,7 +234,7 @@ position: relative;
 {
 border: 2px solid rgb(233, 230, 230);
 margin: 17px 45px 12px 10px;
-padding: 0px 90px 0px 0px;
+padding: 0px 105px 0px 0px;
 border-radius: 5em;
 position: relative;
 }
@@ -245,7 +246,7 @@ position: relative;
 {
     border: 2px solid rgb(233, 230, 230);
     margin: 17px 45px 12px 10px;
-    padding: 0px 120px 0px 0px;
+    padding: 0px 135px 0px 0px;
     border-radius: 5em;
     position: relative;
 }
@@ -257,7 +258,7 @@ position: relative;
 {
 border: 2px solid rgb(233, 230, 230);
 margin: 17px 25px 12px 10px;
-padding: 0px 160px 0px 0px;
+padding: 0px 180px 0px 0px;
 border-radius: 5em;
 position: relative;
 }
@@ -700,7 +701,7 @@ article h2
 
 /*--Start-Mqueries-mobile--*/
 
-@media all and (max-width: 680px)
+@media all and (max-width: 500px)
 
 {
       
