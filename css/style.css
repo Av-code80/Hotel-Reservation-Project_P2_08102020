@@ -113,17 +113,19 @@ h1+p
 
 .left
 {
-    background: lightgray;
+    background: #d3d3d3;
     padding: 1rem 1rem 0rem 1rem;
     margin: 0;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
+    border: .1rem solid #808080 ;
 }
 
 .left .fas
 {
     padding: .1rem 1rem 0rem 1rem
 }
+
 
 
 .search
@@ -175,6 +177,8 @@ h1+p
     cursor: pointer;
     border-color: #0065FC;
     color: #0065FC;
+    background-color: #87cefa;
+
 }
 
 
@@ -667,12 +671,9 @@ article h2
     color: #000000;
 }
 
-
 footer :hover
 {
-    color: #0065FC;
-
-
+ color: #0065fc
 }
 
 
@@ -866,7 +867,7 @@ display:none;
     font-weight: bold;
     margin-top: 0rem;
     visibility: visible;
-    width: 30rem;
+    width: 100%;
   }
   
   .container-aa > div:hover
@@ -874,6 +875,7 @@ display:none;
       cursor: pointer;
       border-color: #0065FC;
       color: #0065FC;
+
   }
   
   
@@ -908,7 +910,7 @@ display:none;
   
   .container-aa h2
   { 
-    padding-left: 12rem;
+    padding-left: 4rem;
     position: absolute;
     font-size: 1rem;
   }
@@ -917,7 +919,7 @@ display:none;
   .economique
   {
     border: 2px solid rgb(233, 230, 230);
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1rem 6rem 1rem 0rem;
     border-radius: 5em;
     position: relative;
   }
@@ -928,7 +930,7 @@ display:none;
   .familial
   {
     border: 2px solid rgb(233, 230, 230);
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1rem 9rem 1rem 0rem;
     padding-right: 1rem;
     border-radius: 5em;
     position: relative;
@@ -940,7 +942,7 @@ display:none;
   .romantique
   {
     border: 2px solid rgb(233, 230, 230);
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1rem 7rem 1rem 0rem;
     padding-right: 1rem;
     border-radius: 5em;
     position: relative;
@@ -952,13 +954,12 @@ display:none;
   .animeaux_autorises
   {
     border: 2px solid rgb(233, 230, 230);
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1rem 2rem 1rem 0rem;
     padding-right: 1rem;
     border-radius: 5em;
     position: relative;
   }
   
-
 
 /*--cercle d'info--*/
 
@@ -1262,9 +1263,7 @@ article h2
     width: 35rem;
 }
 
-footer :hover{
-    color: #0065FC;
-}
+
 
 }
 
