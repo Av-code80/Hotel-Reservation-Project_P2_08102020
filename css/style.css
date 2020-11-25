@@ -306,7 +306,7 @@ h1+p
 {
     background-color: #F2F2F2;
     border-radius: 1em;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .flex-container
@@ -315,7 +315,7 @@ h1+p
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-right: 3rem;      
+    padding-right: 2rem;      
 }
 
 .flex-container > div 
@@ -641,6 +641,7 @@ article h2
 
 /*--footer--*/
 
+
 #foot-container
 {    
     display: flex;
@@ -667,7 +668,12 @@ article h2
 }
 
 
+footer :hover
+{
+    color: #0065FC;
 
+
+}
 
 
 
@@ -1254,6 +1260,10 @@ article h2
     margin-top: 3rem;
     padding-bottom: 2rem;
     width: 35rem;
+}
+
+footer :hover{
+    color: #0065FC;
 }
 
 }
