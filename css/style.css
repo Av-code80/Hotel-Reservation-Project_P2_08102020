@@ -910,7 +910,7 @@ display:none;
   .economique
   {
     border: 2px solid rgb(233, 230, 230);
-    margin-bottom: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
     border-radius: 5em;
     position: relative;
   }
@@ -1118,17 +1118,17 @@ section
 {
     border: #808080;
     background-color: #ffffff;
-    margin: 3rem 1rem 0rem .5rem;
+    margin: 6rem 0rem 0rem 0.5rem;
     padding-bottom: 12.7rem;
     position: relative;
     box-shadow: 0rem 0rem 0.7rem 0rem #808080;
     border-radius: 1rem;
-    width: 30rem;
+    width: 16rem;
   }
  
 .flex-container h2
   {
-    margin: 0rem 1rem 1rem 1rem;
+    margin: 3rem 0rem 0rem 1rem;
     font-size: 1.4rem;
     position: absolute;
     font-weight: bold;
