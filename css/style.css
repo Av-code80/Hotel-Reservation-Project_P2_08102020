@@ -704,9 +704,10 @@ article h2
 /*--MQ-blueline--*/
 
 ul {
-    padding-bottom: 1rem;
+    padding: 0rem 0rem 1rem 2rem;
     position: relative;
-    border-bottom: .1rem solid #ccc;   
+    border-bottom: .1rem solid #ccc;
+    width: 30rem;  
   }
   
   
@@ -747,7 +748,7 @@ nav a:hover
 {
     border-bottom: .1rem solid #0065fc;
     border-top: none;
-    padding: 0px 0px 1rem 2rem;
+    padding: 0px 0px 2rem 0rem;
 }
 
 
