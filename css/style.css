@@ -319,14 +319,14 @@ h1+p
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-right: 2rem;      
+    padding-right: 3rem;      
 }
 
 .flex-container > div 
 {
-    border: gray;
+    border: #808080;
     background-color: #ffffff;
-    margin: 5rem 0rem 0rem 2.7rem;
+    margin: 5rem 0rem 0rem 3rem;
     padding: 0rem 14rem 12.7rem 0rem;
     position: relative;
     box-shadow: 0rem 0rem 0.7rem 0rem #808080;
