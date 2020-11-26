@@ -671,12 +671,10 @@ article h2
     color: #000000;
 }
 
-footer :hover
-{
- color: #0065fc
+footer div a {
+    text-decoration: none;
+    color:#808080;
 }
-
-
 
 
 
@@ -881,8 +879,8 @@ display:none;
   
   .container-aa h1
   {
-    padding: 2rem 0rem 0rem 0rem;
-    font-style: normal;
+    padding: 2rem 0rem;
+    margin: 1rem 0rem 0rem;
     font-size: 1.5rem;
   }
   
@@ -894,7 +892,6 @@ display:none;
     width: 37px;
     background: #DEEBFF;
     border-radius: 100%;
-    margin: 0rem 0rem 0rem 0rem;
     color: #0065FC;
     text-align: center;  
   }
@@ -910,16 +907,16 @@ display:none;
   
   .container-aa h2
   { 
-    padding-left: 4rem;
+    padding-left: 2.5rem;
     position: absolute;
-    font-size: 1rem;
+    font-size: .8rem;
   }
   
   
   .economique
   {
     border: 2px solid rgb(233, 230, 230);
-    margin: 1rem 6rem 1rem 0rem;
+    margin: 0rem 11rem 1rem 0rem;
     border-radius: 5em;
     position: relative;
   }
@@ -930,10 +927,11 @@ display:none;
   .familial
   {
     border: 2px solid rgb(233, 230, 230);
-    margin: 1rem 9rem 1rem 0rem;
+    margin: 7rem 9rem 0rem 20rem;
     padding-right: 1rem;
     border-radius: 5em;
-    position: relative;
+    position: absolute;
+    width: 30%;
   }
   
   
@@ -942,7 +940,7 @@ display:none;
   .romantique
   {
     border: 2px solid rgb(233, 230, 230);
-    margin: 1rem 7rem 1rem 0rem;
+    margin: 1rem 11.5rem 1rem 0rem;
     padding-right: 1rem;
     border-radius: 5em;
     position: relative;
@@ -954,7 +952,7 @@ display:none;
   .animeaux_autorises
   {
     border: 2px solid rgb(233, 230, 230);
-    margin: 1rem 2rem 1rem 0rem;
+    margin: 1rem 6rem 1rem 0rem;
     padding-right: 1rem;
     border-radius: 5em;
     position: relative;
@@ -1069,7 +1067,7 @@ section
 .first-as
 {
     text-align: left;
-    width: 8rem;
+    width: 9rem;
     margin: 0rem 5rem 2rem 14rem;
     font-weight: bold;
 }
@@ -1077,9 +1075,9 @@ section
 .second-as
 {
     text-align: center;
-    padding: 0rem 1.1rem 1rem 9rem;
-    margin-left: 3rem;
-    color: gray;
+    padding: 0rem .4rem 1rem 9rem;
+    margin-right: .7rem;
+    color: #808080;
     font-size: .7rem;
 }
 
