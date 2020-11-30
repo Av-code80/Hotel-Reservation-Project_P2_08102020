@@ -14,73 +14,84 @@
 <!--logo-nav-->
 
 <body>
-    <header>
-      <div class="titre-principal">
+  <div id="principal">
 
+    <!-- Header -->
+
+        <header class="flex">
 <!--logo-->
-
         <div class="logo">
-          <a href="" title="Retour à la page d'accueil"><img src="images/Reservia.svg" alt="logo"/></a>
+          <a href="" title="Retour à la page d'accueil"><img src="images/Reservia.svg" alt="logo"/>
+          </a>
         </div>
 
 <!--top-border-navbar-->
-        <nav>
-          <ul>
-            <li><a class="active" href="#Hebergements">Hébergements</a></li>
-            <li><a class="li-middle" href="#Activités">Activités</a></li>
-            <li><a class="li-height" href="">S'inscrire</a></li>
+        <nav class="flex">      
+          <ul class="flex">
+              <li><a href="#Hebergements">Hébergements</a></li>
+              <li><a href="#Activités">Activités</a></li>
           </ul>
-        </nav>
+      </nav>
+      <a href="" class="li-height">S'inscrire</a>
+  </header>
+
+
+ <!-- Searching-bar-->
+
+    <div class="searching">
+      <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+      <p>En plein centre ville ou en pleine nature</p>
+
+    <form class="searchbar flex" action="#" method="GET">
+      <div class="container flex">
+        <i class="fas fa-map-marker-alt">          
+        </i>
       </div>
-    </header>
-
-    <!--hcentre-2paragraphes-->
-
-    <div class="hcentre">
-      <div class="hebergement">
-        Trouvez votre hébergement pour des vacances de rêve
-      </div>
-      <div class="centre">En plein centre ville ou en pleine nature</div>
-    </div>
-
-<!--formulaire-->
-
-    <div class="recontainer">
-      <div class="left"><i class="fas fa-map-marker-alt"></i></div>
-      <input type="search" class="searchInput"  autocomplete="on" placeholder="Marseille, France"/>
-      <button class="boutton">Rechercher</button>
-<!--responsive button-->
-      <button class="btn"><i class="fas fa-search"></i>
+      
+      <input type="search" class="searchInput" autocomplete="on" placeholder="Marseille, France">
+      <button class="button-search">
+          <span>Rechercher</span>
+          <i class="fas fa-search"></i>
       </button>
-    </div>
+  </form>
 
-    <!--<div class="filtres">Filtres</div>-->
 
-    <div class="container-aa">
-      <h1>Filtres</h1>
-      <div class="economique">
-        <h2>Économique</h2>
-        <div class="cercle-filtre">
-          <i class="fas fa-money-bill-wave">            
-          </i>
-        </div>
+<!--filters-->
+
+    <div class="filters flex">
+      <div class="filter-text">Filtres</div>
+      <div class="filter-container flex">
+
+          <div class="filter flex">
+              <div class="circle flex">
+                  <i class="fas fa-money-bill-wave"></i>
+              </div>
+              <span>Économique</span>
+          </div>
+          
+          <div class="filter flex">
+              <div class="circle flex">
+                  <i class="fas fa-child"></i>
+              </div>
+              <span>Familial</span>
+          </div>
+          
+          <div class="filter flex">
+              <div class="circle flex">
+                  <i class="fas fa-heart"></i>
+              </div>
+              <span>Romantique</span>
+          </div>
+
+          <div class="filter flex">
+              <div class="circle flex">
+                  <i class="fas fa-dog"></i>
+              </div>
+              <span>Animaux autorisés</span>
+          </div>
+
       </div>
-
-      <div class="familial">
-        <h2>Familial</h2>
-        <div class="cercle-filtre"><i class="fas fa-child"></i></div>
-      </div>
-
-      <div class="romantique">
-        <h2>Romantique</h2>
-        <div class="cercle-filtre"><i class="fas fa-heart"></i></div>
-      </div>
-
-      <div class="animeaux_autorises">
-        <h2>Animeaux autorisés</h2>
-        <div class="cercle-filtre"><i class="fas fa-dog"></i></div>
-      </div>
-    </div>
+  </div>
 
     <!--section--><!--cercle d'info-->
 
@@ -94,12 +105,12 @@
       </div>
     </div>
 
-    <!--hebergement à Marseille-->
 
-<section id="Hebergements">
+<section id="Hebergements flex">
       <div class="hebergements">
-      <div class="flex-container">
         <h2>Hébergements à Marseille</h2>
+      <div class="flex-container">
+       
      <div class="flex-auberge">
         <img class="img" src="images/ac.jpg" alt="Auberge" />
          <div class="text-boxe">
@@ -205,11 +216,11 @@
               </div>
             </div>
           </div>
-          <p>Afficher plus</p>
-        </div>
+          <a class="showPlus" href="">Afficher plus</a>
+          </div>
       </div>
 
-<!--aside-->
+
 
 <aside class="aside">
     <div id="flex-container-as">
@@ -274,6 +285,7 @@
       </aside>
     </section>
 
+
 <!--gridImage-section2-activités-->
 
 <article>
@@ -313,27 +325,31 @@
 
     <!--footer-->
 
-<footer>
-    <div id="foot-container">
-       <div class="titre">
-          <h2>A propos</h2>
-          <div class="first"><a href="#">Fonctionnement du site</a></div>
-          <div class="second"><a href="#">Conditions générales de vente</a></div>
-          <div class="third"><a href="#">Données et confidentialité</a></div>
-        </div>
-
-        <div class="titre">
-          <h2>Nos hébergements</h2>
-          <div class="first"><a href="#">charte qualité</a></div>
-          <div class="second"><a href="#">Soumettre votre hôtel</a></div>
-        </div>
-
-        <div class="titre">
-          <h2>Assistant</h2>
-          <div class="first"><a href="#">Centre d'aide</a></div>
-          <div class="second"><a href="#">Nous contacter</a></div>
-        </div>
-      </div>
-    </footer>
+ <!-- Footer -->
+ <footer class="flex">
+  <div class="A Propos">
+      <h3>A propos</h3>
+      <ul>
+          <li><a href="#">Fonctionnement du site</a></li>
+          <li><a href="#">Conditions générales de vente</a></li>
+          <li><a href="#">Données et confidentialités</a></li>
+      </ul>
+  </div>
+  <div class="hotels">
+      <h3>Nos hébergements</h3>
+      <ul>
+          <li><a href="#">Charte qualité</a></li>
+          <li><a href="#">Soumettre votre hôtel</a></li>
+      </ul>
+  </div>
+  <div class="assistance">
+      <h3>Assistance</h3>
+      <ul>
+          <li><a href="#">Centre d'aide</a></li>
+          <li><a href="#">Nous contacter</a></li>
+      </ul>
+  </div>
   </body>
+</footer>
+
 </html>
