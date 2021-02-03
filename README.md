@@ -1,6 +1,6 @@
 # AAGhasemian_2_08102020
 
-![](https://github.com/Av-code80/AvehAliGhasemian_P2_08102020/blob/main/images/Reservia.svg)
+![](https://github.com/Av-code80/AvehAliGhasemian_P2_08102020/blob/main/images/Reservia%403x.png)
 
 # Présentation
 
@@ -21,5 +21,7 @@ The page should use flexbox and/or grid.
 # Les Maquettes 
 
 ![](images/iPhone%208%20-%201.png), ![](images/Desktop%20-%201.png)
+
+# Résultat :
 
 Vous pouvez consulter [mon site Reservia :](https://av-code80.github.io/AvehAliGhasemian_P2_08102020/)
